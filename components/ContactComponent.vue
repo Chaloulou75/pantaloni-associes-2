@@ -28,7 +28,7 @@
             </svg>
             Adresse:
           </p>
-          <p class="mt-4 ml-10 text-lg text-gold lg:text-2xl">
+          <p class="mt-4 ml-10 text-lg text-gold-yellow lg:text-2xl">
             Pantaloni &amp; Associés | Avocats
           </p>
           <p class="ml-10 text-lg lg:text-lg">15 Rue Saussier Leroy</p>
@@ -60,13 +60,12 @@
             </svg>
             <Mailto
               mail="mpantaloni@pantaloni-avocats.com"
-              class="transition duration-500 ease-in-out transform text-gold hover:translate-x-2 hover:text-gray-100"
+              class="underline transition duration-200 ease-in-out decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-gray-100"
               >mpantaloni@pantaloni-avocats.com</Mailto
             >
           </p>
         </div>
       </div>
-
       <div
         class="flex justify-start w-full px-2 text-gray-100 lg:px:8 lg:w-1/3 lg:justify-center"
       >

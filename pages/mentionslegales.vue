@@ -1,8 +1,6 @@
 <template>
   <div class="bg-gray-200">
-    <nav
-      class="relative flex justify-between w-full px-6 py-4 bg-gray-200 border-t-14 border-gold"
-    >
+    <nav class="relative flex justify-between w-full px-6 py-4 bg-gray-200">
       <NuxtLink
         to="/"
         class="text-sm font-medium text-gray-900 transition duration-500 ease-in-out transform border-b border-gray-800 cursor-pointer hover:border-gray-900 hover:font-semibold hover:text-black lg:text-base"

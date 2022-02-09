@@ -48,6 +48,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
+    "nuxt-protected-mailto",
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -63,6 +64,11 @@ export default {
       plugins: {
         tailwindcss: {},
         autoprefixer: {},
+      },
+    },
+    html: {
+      minify: {
+        decodeEntities: false,
       },
     },
   },
