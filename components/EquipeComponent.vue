@@ -15,5 +15,10 @@
         />
       </div>
     </div>
+    <MarcComponent />
   </div>
 </template>
+<script>
+import MarcComponent from "./MarcComponent.vue";
+export default { components: { MarcComponent } };
+</script>

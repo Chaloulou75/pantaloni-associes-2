@@ -19,8 +19,9 @@
         <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
         <!-- <h3 class="py-2 text-2xl font-medium text-center">Un sous titre</h3> -->
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
-          Depuis sa constitution, le Cabinet PANTALONI &amp; ASSOCIES propose à
-          ses clients un accompagnement
+          Depuis sa constitution, le Cabinet
+          <span class="font-bold text-sky-800"> PANTALONI &amp; ASSOCIES </span>
+          propose à ses clients un accompagnement
           <span
             class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >sur mesure</span
@@ -70,3 +71,6 @@
     </div>
   </div>
 </template>
+<script>
+export default {};
+</script>

@@ -4,7 +4,7 @@
       class="absolute inset-0 bg-center bg-no-repeat bg-cover bg-hero-palais"
     ></div>
     <div
-      class="absolute inset-0 bg-sky-600/5 backdrop-blur-sm backdrop-contrast-50 backdrop-opacity-50"
+      class="absolute inset-0 bg-sky-800/5 backdrop-blur-sm backdrop-contrast-50 backdrop-opacity-50"
     ></div>
     <!-- Navigation   -->
     <div class="flex flex-col items-center justify-center min-h-screen mx-auto">
@@ -19,7 +19,7 @@
         <h2
           class="text-3xl font-semibold text-center text-white underline transition duration-200 decoration-gold-yellow underline-offset-8 lg:text-6xl"
         >
-          <span> - Avocats à la Cour -</span>
+          - Avocats à la Cour -
         </h2>
       </div>
       <!---menu -->

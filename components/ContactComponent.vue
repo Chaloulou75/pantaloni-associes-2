@@ -31,9 +31,9 @@
           <p class="mt-4 ml-10 text-lg text-gold-yellow lg:text-2xl">
             Pantaloni &amp; Associés | Avocats
           </p>
-          <p class="ml-10 text-lg lg:text-lg">15 Rue Saussier Leroy</p>
-          <p class="ml-10 text-lg lg:text-lg">75017 Paris</p>
-          <p class="ml-10 text-lg lg:text-lg">France</p>
+          <p class="ml-10 text-lg">15 Rue Saussier Leroy</p>
+          <p class="ml-10 text-lg">75017 Paris</p>
+          <p class="ml-10 text-lg">France</p>
         </div>
       </div>
 
@@ -42,7 +42,7 @@
       >
         <div class="px-2 py-4 rounded-lg lg:my-0 lg:px-12">
           <p
-            class="flex items-center pb-4 text-base text-center text-gray-100 cursor-pointer lg:text-xl"
+            class="flex items-center pb-4 text-lg text-center text-gray-100 cursor-pointer"
           >
             <svg
               class="inline-block w-6 h-6 mr-4 lg:mr-2"
@@ -70,7 +70,7 @@
         class="flex justify-start w-full px-2 text-gray-100 lg:px:8 lg:w-1/3 lg:justify-center"
       >
         <div class="px-2 py-4 rounded-lg lg:my-0 lg:px-12">
-          <p class="flex items-center text-base lg:my-0 lg:text-lg">
+          <p class="flex items-center text-lg lg:my-0">
             <svg
               class="inline-block w-6 h-6 mr-4"
               fill="none"
@@ -87,7 +87,7 @@
             </svg>
             + 33 1 85 73 40 50
           </p>
-          <p class="flex items-center mt-2 text-base lg:text-lg">
+          <p class="flex items-center mt-2 text-lg">
             <span class="p-1 mr-2"> Fax: </span> + 33 1 86 95 29 57
           </p>
         </div>
@@ -95,3 +95,6 @@
     </div>
   </div>
 </template>
+<script>
+export default {};
+</script>
