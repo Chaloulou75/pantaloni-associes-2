@@ -7,11 +7,11 @@
     </h2>
     <div class="items-center justify-between my-8 lg:flex lg:flex-row-reverse">
       <div class="w-full lg:w-1/2">
-        <img
-          loading="lazy"
-          src="~assets/img/compress/palaisj.jpg"
+        <nuxt-img
+          sizes="sm:100vw md:50vw lg:400px"
+          src="/img/livres.jpg"
           alt="expertise"
-          class="h-auto max-w-full px-3 mx-auto"
+          class="mx-auto rounded-xl"
         />
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2">

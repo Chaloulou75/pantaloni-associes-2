@@ -12,7 +12,7 @@ module.exports = {
         "gold-yellow": "#FFDF00",
       },
       backgroundImage: {
-        "hero-palais": "url('~assets/img/compress/palaisj.jpg')",
+        "hero-palais": "url('~/assets/img/palaisj.jpg')",
       },
       fontFamily: {
         cormorant: ["Cormorant Garamond", "font-sans"],
