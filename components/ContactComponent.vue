@@ -42,7 +42,7 @@
       >
         <div class="px-2 py-4 rounded-lg lg:my-0 lg:px-12">
           <p
-            class="flex items-center pb-4 text-base text-center text-gray-100 cursor-pointer hover:font-semibold lg:text-xl"
+            class="flex items-center pb-4 text-base text-center text-gray-100 cursor-pointer lg:text-xl"
           >
             <svg
               class="inline-block w-6 h-6 mr-4 lg:mr-2"
@@ -60,7 +60,7 @@
             </svg>
             <Mailto
               mail="mpantaloni@pantaloni-avocats.com"
-              class="underline transition duration-200 ease-in-out decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-gray-100"
+              class="underline transition duration-200 ease-in-out decoration-gold-yellow underline-offset-4 hover:translate-x-1"
               >mpantaloni@pantaloni-avocats.com</Mailto
             >
           </p>
@@ -88,8 +88,7 @@
             + 33 1 85 73 40 50
           </p>
           <p class="flex items-center mt-2 text-base lg:text-lg">
-            <span class="p-1 mr-2 font-semibold"> Fax: </span> + 33 1 86 95 29
-            57
+            <span class="p-1 mr-2"> Fax: </span> + 33 1 86 95 29 57
           </p>
         </div>
       </div>

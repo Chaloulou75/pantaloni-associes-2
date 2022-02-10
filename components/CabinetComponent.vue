@@ -21,24 +21,29 @@
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Depuis sa constitution, le Cabinet PANTALONI &amp; ASSOCIES propose à
           ses clients un accompagnement
-          <span class="font-semibold underline decoration-sky-500 decoration-2"
+          <span
+            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >sur mesure</span
           >
           dans ses domaines d’interventions.
         </p>
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Le Cabinet dispose d’une compétence reconnue en
-          <span class="font-semibold underline decoration-sky-500 decoration-2"
+          <span
+            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >matière pénale</span
           >, en
-          <span class="font-semibold underline decoration-sky-500 decoration-2"
+          <span
+            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >Droit de la construction</span
           >, en
-          <span class="font-semibold underline decoration-sky-500 decoration-2"
+          <span
+            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >Droit de la responsabilité</span
           >
           et en
-          <span class="font-semibold underline decoration-sky-500 decoration-2"
+          <span
+            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >Droit des assurances</span
           >.
         </p>
@@ -46,11 +51,13 @@
           De taille humaine, croisant les compétences, le Cabinet assure un
           service personnalisé à ses clients qu’il conseille et accompagne en
           demande comme en défense dans le
-          <span class="font-semibold underline decoration-sky-500 decoration-2"
+          <span
+            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >respect des règles professionnelles</span
           >
           et notamment de
-          <span class="font-semibold underline decoration-sky-500 decoration-2"
+          <span
+            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >confidentialité</span
           >.
         </p>
