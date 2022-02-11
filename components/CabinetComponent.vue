@@ -9,7 +9,7 @@
     <div class="items-center justify-between my-8 mt-4 lg:flex">
       <div class="w-full lg:w-1/2">
         <nuxt-img
-          sizes="sm:100vw md:50vw lg:400px"
+          sizes="sm:90vw md:50vw lg:400px"
           src="/img/statue.jpg"
           alt="cabinet"
           class="mx-auto rounded-xl"

@@ -8,7 +8,7 @@
     <div class="items-center justify-between my-8 lg:flex lg:flex-row-reverse">
       <div class="w-full lg:w-1/2">
         <nuxt-img
-          sizes="sm:100vw md:50vw lg:400px"
+          sizes="sm:90vw md:50vw lg:400px"
           src="/img/livres.jpg"
           alt="expertise"
           class="mx-auto rounded-xl"

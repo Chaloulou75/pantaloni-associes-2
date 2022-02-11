@@ -1,7 +1,7 @@
 <template>
   <div class="h-auto my-24" id="MarcPantaloni">
     <h2
-      class="py-2 mb-2 text-5xl font-semibold text-center text-gray-800 lg:hidden"
+      class="py-2 mb-4 text-5xl font-semibold text-center text-gray-800 lg:hidden"
     >
       Marc Pantaloni
     </h2>
@@ -25,7 +25,7 @@
         <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
 
         <ul
-          class="px-2 py-2 space-y-4 text-lg italic font-medium tracking-wide text-justify list-disc list-inside"
+          class="px-2 pt-2 mb-5 space-y-4 text-xl italic font-medium tracking-wide text-justify list-disc list-inside"
         >
           <li class="not-italic">
             Inscrit au Barreau de Paris depuis janvier 1983
@@ -37,9 +37,9 @@
           <li>DEA droit des affaires (Université Panthéon-Assas Paris II)</li>
         </ul>
         <div
-          class="w-full h-full px-2 space-y-4 text-lg font-medium text-justify text-gray-800"
+          class="w-full h-full px-2 space-y-4 text-xl font-medium tracking-wide text-justify text-gray-800"
         >
-          <p class="py-1 tracking-wide indent-8">
+          <p class="indent-8">
             Associé au sein du Cabinet RONSSERAY TOURNOIS & ASSOCIES, puis
             membre fondateur du Cabinet SELNET PANTALONI FISCHER, Marc PANTALONI
             a constitué une équipe dédiée au service de clients auxquels sont
@@ -47,17 +47,17 @@
             conseil, l’assistance pré-contentieuse et contentieuse qui leur est
             nécessaire.
           </p>
-          <p class="py-1 tracking-wide indent-8">
+          <p class="indent-8">
             En matière pénale, Marc PANTALONI est intervenu et intervient dans
             de nombreux dossiers à forts enjeux tant en droit pénal des affaires
             et financiers qu’en droit pénal général et du travail.
           </p>
-          <p class="py-1 tracking-wide indent-8">
+          <p class="indent-8">
             Son activité se déploie en outre dans les domaines de la
             construction et de l’immobilier où il intervient aux côtés
             d’entreprises de BTP ou de leurs assureurs.
           </p>
-          <p class="py-1 tracking-wide indent-8">
+          <p class="indent-8">
             Enfin, il assure dans le cadre de leurs responsabilités civiles
             professionnelles et/ou contractuelles la défense d’agents
             immobiliers et des professionnels du droit, notamment notaires,

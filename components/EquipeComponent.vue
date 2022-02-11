@@ -8,7 +8,7 @@
     <div class="items-center justify-between my-8 overflow-hidden lg:flex">
       <div class="w-full">
         <nuxt-img
-          sizes="sm:100vw md:50vw lg:400px"
+          sizes="sm:90vw md:50vw lg:400px"
           src="/img/livres.jpg"
           alt="equipe"
           class="mx-auto rounded-xl"
