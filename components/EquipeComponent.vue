@@ -1,11 +1,11 @@
 <template>
-  <div class="min-h-full my-8" id="equipe">
+  <div class="my-8 min-h-full" id="equipe">
     <h2
-      class="sticky top-0 z-30 py-4 mb-4 text-3xl font-semibold tracking-wider text-center bg-gray-300 opacity-75"
+      class="sticky top-0 z-30 mb-4 bg-gray-300 py-4 text-center text-3xl font-semibold tracking-wider opacity-75"
     >
       L'équipe
     </h2>
-    <div class="items-center justify-between my-8 overflow-hidden lg:flex">
+    <div class="my-8 items-center justify-between overflow-hidden lg:flex">
       <div class="w-full">
         <nuxt-img
           sizes="sm:90vw md:50vw lg:400px"
@@ -16,9 +16,13 @@
       </div>
     </div>
     <MarcComponent />
+    <MagaliComponent />
+    <MarcComponent />
+    <MagaliComponent />
   </div>
 </template>
 <script>
 import MarcComponent from "./MarcComponent.vue";
-export default { components: { MarcComponent } };
+import MagaliComponent from "./MagaliComponent.vue";
+export default { components: { MarcComponent, MagaliComponent } };
 </script>

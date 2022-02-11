@@ -1,10 +1,11 @@
 <template>
-  <div class="h-auto my-24" id="MarcPantaloni">
+  <div class="my-20 h-auto" id="MarcPantaloni">
     <h2
-      class="py-2 mb-4 text-5xl font-semibold text-center text-gray-800 lg:hidden"
+      class="mb-4 py-2 text-center text-3xl font-semibold text-gray-800 lg:text-5xl"
     >
       Marc Pantaloni
     </h2>
+    <div class="mx-auto my-8 w-1/4 border-t border-gold-yellow"></div>
     <div class="lg:flex lg:items-center lg:justify-between">
       <div class="w-full lg:w-1/2">
         <nuxt-img
@@ -15,17 +16,10 @@
         />
       </div>
       <div
-        class="flex flex-col justify-between w-full px-2 py-4 text-gray-800 lg:w-1/2"
+        class="mt-4 flex w-full flex-col justify-between px-4 py-4 text-gray-800 lg:mt-0 lg:w-1/2"
       >
-        <h2
-          class="hidden py-2 mb-2 text-5xl font-semibold text-center lg:block"
-        >
-          Marc Pantaloni
-        </h2>
-        <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
-
         <ul
-          class="px-2 pt-2 mb-5 space-y-4 text-xl italic font-medium tracking-wide text-justify list-disc list-inside"
+          class="mb-5 list-inside list-disc space-y-4 px-2 pt-2 text-justify text-xl font-medium italic tracking-wide"
         >
           <li class="not-italic">
             Inscrit au Barreau de Paris depuis janvier 1983
@@ -37,7 +31,7 @@
           <li>DEA droit des affaires (Université Panthéon-Assas Paris II)</li>
         </ul>
         <div
-          class="w-full h-full px-2 space-y-4 text-xl font-medium tracking-wide text-justify text-gray-800"
+          class="h-full w-full space-y-4 px-2 text-justify text-xl font-medium tracking-wide text-gray-800"
         >
           <p class="indent-8">
             Associé au sein du Cabinet RONSSERAY TOURNOIS & ASSOCIES, puis
@@ -64,7 +58,7 @@
             experts judiciaires…
           </p>
         </div>
-        <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
+        <div class="mx-auto my-8 w-1/4 border-t border-gold-yellow"></div>
       </div>
     </div>
   </div>
