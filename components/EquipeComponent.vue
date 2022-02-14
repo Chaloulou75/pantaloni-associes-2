@@ -1,14 +1,14 @@
 <template>
-  <div class="my-8 min-h-full" id="equipe">
+  <div class="min-h-full" id="equipe">
     <h2
-      class="sticky top-0 z-30 mb-4 bg-gray-300 py-4 text-center text-3xl font-semibold tracking-wider opacity-75"
+      class="sticky top-0 z-30 py-4 text-3xl font-semibold tracking-wider text-center bg-gray-300 opacity-75"
     >
       L'équipe
     </h2>
-    <div class="my-8 items-center justify-between lg:flex">
+    <div class="items-center justify-between my-8 lg:flex">
       <div class="w-full">
         <nuxt-img
-          sizes="sm:100vw md:50vw lg:800px"
+          sizes="sm:95vw md:50vw lg:800px"
           src="/img/GROUPE.JPG"
           alt="equipe"
           class="mx-auto rounded-md shadow-lg shadow-sky-800 md:rounded-xl"
