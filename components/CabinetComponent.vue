@@ -12,7 +12,7 @@
           sizes="sm:100vw md:50vw lg:800px"
           src="/img/cabinet.JPG"
           alt="cabinet"
-          class="mx-auto rounded-xl"
+          class="mx-auto md:rounded-xl"
         />
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2">
