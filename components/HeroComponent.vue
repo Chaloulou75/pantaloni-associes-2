@@ -4,7 +4,7 @@
       class="absolute inset-0 bg-hero-cabinet bg-cover bg-center bg-no-repeat"
     ></div>
     <div
-      class="absolute inset-0 bg-sky-800/5 backdrop-blur-sm backdrop-contrast-50 backdrop-opacity-50"
+      class="absolute inset-0 bg-sky-800/20 backdrop-blur-sm backdrop-contrast-50 backdrop-opacity-40"
     ></div>
     <!-- Navigation   -->
     <div class="mx-auto flex min-h-screen flex-col items-center justify-center">

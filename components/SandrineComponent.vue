@@ -12,7 +12,7 @@
           sizes="sm:90vw md:50vw lg:400px"
           src="/img/SANDRINE_NIVET_ABDOUN.JPG"
           alt="Sandrine Nivet-Abdoun"
-          class="mx-auto rounded-xl"
+          class="mx-auto rounded-xl shadow-lg shadow-sky-800"
         />
       </div>
       <div

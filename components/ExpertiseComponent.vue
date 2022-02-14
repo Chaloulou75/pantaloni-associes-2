@@ -5,16 +5,18 @@
     >
       Expertise
     </h2>
-    <div class="my-8 items-center justify-between lg:flex lg:flex-row-reverse">
+    <div
+      class="my-8 items-center justify-between lg:flex lg:flex-row-reverse lg:px-6"
+    >
       <div class="w-full lg:w-1/2">
         <nuxt-img
           sizes="sm:100vw md:50vw lg:800px"
           src="/img/cabinet.JPG"
           alt="cabinet"
-          class="mx-auto md:rounded-xl"
+          class="mx-auto rounded-md shadow-lg shadow-sky-800 md:rounded-xl"
         />
       </div>
-      <div class="w-full px-4 py-4 lg:w-1/2">
+      <div class="w-full py-4 px-4 lg:w-1/2 lg:px-8">
         <div class="mx-auto my-8 w-1/4 border-t border-gold-yellow"></div>
         <!-- <h3 class="py-2 text-2xl font-medium text-center">Un sous titre</h3> -->
         <p class="mx-auto py-2 text-justify indent-8 text-xl tracking-wide">

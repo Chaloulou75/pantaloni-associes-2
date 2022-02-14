@@ -12,7 +12,7 @@
           sizes="sm:90vw md:50vw lg:400px"
           src="/img/GHINWA_RACHWAN.jpg"
           alt="Ghinwa Rachwan"
-          class="mx-auto rounded-xl"
+          class="mx-auto rounded-xl shadow-lg shadow-sky-800"
         />
       </div>
       <div

@@ -5,13 +5,13 @@
     >
       L'équipe
     </h2>
-    <div class="my-8 items-center justify-between overflow-hidden lg:flex">
+    <div class="my-8 items-center justify-between lg:flex">
       <div class="w-full">
         <nuxt-img
           sizes="sm:100vw md:50vw lg:800px"
           src="/img/GROUPE.JPG"
           alt="equipe"
-          class="mx-auto rounded-xl"
+          class="mx-auto rounded-md shadow-lg shadow-sky-800 md:rounded-xl"
         />
       </div>
     </div>

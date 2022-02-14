@@ -12,7 +12,7 @@
           sizes="sm:90vw md:50vw lg:400px"
           src="/img/MARC_PANTALONI.JPG"
           alt="Marc Pantaloni"
-          class="mx-auto rounded-xl"
+          class="mx-auto rounded-xl shadow-lg shadow-sky-800"
         />
       </div>
       <div
