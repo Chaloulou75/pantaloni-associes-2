@@ -6,11 +6,11 @@
       Le cabinet
     </h2>
 
-    <div class="m-8 mt-4 items-center justify-between lg:flex">
+    <div class="my-8 mt-4 items-center justify-between lg:flex">
       <div class="w-full lg:w-1/2">
         <nuxt-img
-          sizes="sm:90vw md:50vw lg:800px"
-          src="/img/cabinet.jpg"
+          sizes="sm:100vw md:50vw lg:800px"
+          src="/img/cabinet.JPG"
           alt="cabinet"
           class="mx-auto rounded-xl"
         />

@@ -5,10 +5,10 @@
     >
       Expertise
     </h2>
-    <div class="m-8 items-center justify-between lg:flex lg:flex-row-reverse">
+    <div class="my-8 items-center justify-between lg:flex lg:flex-row-reverse">
       <div class="w-full lg:w-1/2">
         <nuxt-img
-          sizes="sm:90vw md:50vw lg:800px"
+          sizes="sm:100vw md:50vw lg:800px"
           src="/img/cabinet.JPG"
           alt="cabinet"
           class="mx-auto rounded-xl"
