@@ -10,13 +10,13 @@
       <div class="w-full lg:w-1/2">
         <nuxt-img
           sizes="sm:90vw md:50vw lg:400px"
-          src="/img/statue.jpg"
+          src="/img/MARC_PANTALONI.JPG"
           alt="Marc Pantaloni"
           class="mx-auto rounded-xl"
         />
       </div>
       <div
-        class="mt-4 flex w-full flex-col justify-between px-4 py-4 text-gray-800 lg:mt-0 lg:w-1/2"
+        class="mt-4 flex w-full flex-col justify-between px-4 py-4 text-gray-800 lg:mt-0 lg:w-1/2 lg:pr-12"
       >
         <ul
           class="mb-5 list-inside list-disc space-y-4 px-2 pt-2 text-justify text-xl font-medium italic tracking-wide"
@@ -35,7 +35,8 @@
         >
           <p class="indent-8">
             Associé au sein du Cabinet RONSSERAY TOURNOIS & ASSOCIES, puis
-            membre fondateur du Cabinet SELNET PANTALONI FISCHER, Marc PANTALONI
+            membre fondateur du Cabinet SELNET PANTALONI FISCHER,
+            <span class="font-bold text-sky-800">Marc PANTALONI</span>
             a constitué une équipe dédiée au service de clients auxquels sont
             apportés tant la formation à raison de séminaires dédiés que le
             conseil, l’assistance pré-contentieuse et contentieuse qui leur est

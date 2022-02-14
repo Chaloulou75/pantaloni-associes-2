@@ -10,13 +10,13 @@
       <div class="w-full lg:w-1/2">
         <nuxt-img
           sizes="sm:90vw md:50vw lg:400px"
-          src="/img/statue.jpg"
+          src="/img/MAGALI_GREINER.JPG"
           alt="Magali GREINER"
           class="mx-auto rounded-xl"
         />
       </div>
       <div
-        class="mt-4 flex w-full flex-col justify-between px-4 py-4 text-gray-800 lg:mt-0 lg:w-1/2"
+        class="mt-4 flex w-full flex-col justify-between px-4 py-4 text-gray-800 lg:mt-0 lg:w-1/2 lg:pl-12"
       >
         <ul
           class="mb-5 list-inside list-disc space-y-4 px-2 pt-2 text-justify text-xl font-medium italic tracking-wide"
@@ -33,10 +33,10 @@
           class="h-full w-full space-y-4 px-2 text-justify text-xl font-medium tracking-wide text-gray-800"
         >
           <p class="indent-8">
-            Maitre Magali GREINER, spécialisée en propriété intellectuelle et
-            nouvelles technologies, dispose aujourd’hui d’une expertise
-            particulière en droit des marques, dessins et modèles et en droit
-            d’auteur.
+            <span class="font-bold text-sky-800">Maitre Magali GREINER</span>,
+            spécialisée en propriété intellectuelle et nouvelles technologies,
+            dispose aujourd’hui d’une expertise particulière en droit des
+            marques, dessins et modèles et en droit d’auteur.
           </p>
           <p class="indent-8">
             Du fait de sa collaboration avec des cabinets spécialisés en droit

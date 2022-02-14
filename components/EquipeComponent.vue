@@ -8,8 +8,8 @@
     <div class="my-8 items-center justify-between overflow-hidden lg:flex">
       <div class="w-full">
         <nuxt-img
-          sizes="sm:90vw md:50vw lg:400px"
-          src="/img/livres.jpg"
+          sizes="sm:90vw md:50vw lg:800px"
+          src="/img/GROUPE.JPG"
           alt="equipe"
           class="mx-auto rounded-xl"
         />
@@ -17,12 +17,21 @@
     </div>
     <MarcComponent />
     <MagaliComponent />
-    <MarcComponent />
-    <MagaliComponent />
+    <GhinwaComponent />
+    <SandrineComponent />
   </div>
 </template>
 <script>
 import MarcComponent from "./MarcComponent.vue";
 import MagaliComponent from "./MagaliComponent.vue";
-export default { components: { MarcComponent, MagaliComponent } };
+import GhinwaComponent from "./GhinwaComponent.vue";
+import SandrineComponent from "./SandrineComponent.vue";
+export default {
+  components: {
+    MarcComponent,
+    MagaliComponent,
+    GhinwaComponent,
+    SandrineComponent,
+  },
+};
 </script>
