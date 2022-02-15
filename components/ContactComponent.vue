@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-full bg-gray-800" id="contact">
     <h2
-      class="sticky top-0 z-30 py-4 mb-4 text-3xl font-semibold tracking-wider text-center text-white opacity-75"
+      class="sticky top-0 z-30 py-4 mb-4 text-3xl font-semibold tracking-wider text-center text-white bg-gray-800/50 backdrop-blur"
     >
       Contact
     </h2>

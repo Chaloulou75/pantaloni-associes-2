@@ -1,10 +1,10 @@
 <template>
-  <div class="relative w-full min-h-screen" id="herotop">
+  <div
+    class="relative w-full min-h-screen bg-center bg-no-repeat bg-cover bg-hero-cabinet"
+    id="herotop"
+  >
     <div
-      class="absolute inset-0 bg-center bg-no-repeat bg-cover bg-hero-cabinet blur-sm"
-    ></div>
-    <div
-      class="absolute inset-0 bg-sky-800 mix-blend-soft-light lg:backdrop-blur-sm"
+      class="absolute inset-0 bg-sky-800/50 mix-blend-soft-light backdrop-blur-sm"
     ></div>
     <!-- Navigation  backdrop-opacity-20 backdrop-contrast-50-->
     <div class="flex flex-col items-center justify-center min-h-screen mx-auto">
