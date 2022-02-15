@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         "gold-yellow": "#FFDF00",
       },
+      backdropBlur: {
+        xs: "2px",
+      },
       backgroundImage: {
         "hero-palais": "url('~/assets/img/palaisj.jpg')",
         "hero-cabinet": "url('~/assets/img/cabinet.JPG')",
