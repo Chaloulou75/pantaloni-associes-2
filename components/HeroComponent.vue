@@ -28,22 +28,22 @@
           class="flex flex-col justify-around space-y-3 text-lg font-bold uppercase md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
-            class="relative px-3 tracking-wide text-gray-900 transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4"
+            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#cabinet">Le cabinet</a>
           </li>
           <li
-            class="relative px-3 tracking-wide text-gray-900 transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4"
+            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#equipe">L'equipe</a>
           </li>
           <li
-            class="relative px-3 tracking-wide text-gray-900 transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4"
+            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#expertise">Expertise</a>
           </li>
           <li
-            class="relative px-3 tracking-wide text-gray-900 transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4"
+            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:text-white hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#contact">Contact</a>
           </li>
