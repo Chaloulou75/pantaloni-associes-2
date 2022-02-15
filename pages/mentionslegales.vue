@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-200">
-    <nav class="relative flex justify-between w-full px-6 py-4 bg-gray-200">
+  <div class="bg-gray-100 font-cormorant">
+    <nav class="relative flex justify-between w-full px-6 py-4">
       <NuxtLink
         to="/"
         class="text-sm font-medium text-gray-900 transition duration-500 ease-in-out transform border-b border-gray-800 cursor-pointer hover:border-gray-900 hover:font-semibold hover:text-black lg:text-base"
@@ -9,9 +9,7 @@
       </NuxtLink>
     </nav>
 
-    <div
-      class="h-auto max-w-5xl px-6 pb-8 mx-auto text-sm text-gray-900 bg-gray-200"
-    >
+    <div class="h-auto max-w-5xl px-6 pb-8 mx-auto text-sm text-gray-900">
       <h1 class="py-4 mb-4 text-3xl font-semibold tracking-wider text-center">
         -Mentions légales-
       </h1>
@@ -41,7 +39,7 @@
       <div class="mb-6 text-base">
         <h3 class="mb-6 font-semibold">Propriété intellectuelle</h3>
         <div class="mb-6">
-          <p>
+          <p class="indent-8">
             Pantaloni &amp; Associés détient, se réserve et conserve tous les
             droits de propriété, notamment intellectuelle, y compris les droits
             de reproduction sur le présent site et les éléments qu’il contient.
@@ -58,7 +56,7 @@
 
         <h3 class="mb-6 font-semibold">Contenu</h3>
         <div class="mb-6">
-          <p>
+          <p class="indent-8">
             Les informations fournies sur ce site par Pantaloni &amp; Associés
             ne sont données qu’à titre indicatif et n’ont pas de valeur
             contractuelle.<br />
@@ -78,7 +76,7 @@
           Exclusion de garantie et de responsabilité
         </h3>
         <div class="mb-6">
-          <p>
+          <p class="indent-8">
             L’utilisateur du site web www.pantaloni-associes.com reconnaît avoir
             pris connaissance des présentes conditions d’utilisation du site et
             s’engage à les respecter.<br />
@@ -103,7 +101,7 @@
 
         <h3 class="mb-6 font-semibold">Lien vers d’autres sites</h3>
         <div class="mb-6">
-          <p>
+          <p class="indent-8">
             Le site peut inclure des liens vers d’autres sites ou d’autres
             sources Internet. Dans la mesure où Pantaloni &amp; Associés ne peut
             contrôler ces sites et ces sources externes, Pantaloni &amp;
@@ -121,7 +119,7 @@
 
         <h3 id="cookies" class="mb-6 font-semibold">Cookies</h3>
         <div class="mb-6">
-          <p>
+          <p class="indent-8">
             Lors de vos visites, vous êtes informé qu’un témoin de connexion
             peut s’installer automatiquement sur votre logiciel de navigation.
             Il s’agit d’un bloc de données qui n’est pas utilisé à des fins
@@ -133,7 +131,7 @@
           </p>
 
           <ol>
-            <li>
+            <li class="indent-8">
               Si vous utilisez le navigateur Internet Explorer Dans Internet
               Explorer, cliquez sur le bouton « Outils », puis sur « Options
               Internet ». Sous l’onglet Général, sous « Historique de navigation
@@ -148,21 +146,21 @@
               fichiers, puis cliquez deux fois sur « OK » pour retourner dans
               Internet Explorer.
             </li>
-            <li>
+            <li class="indent-8">
               Si vous utilisez le navigateur Firefox Allez dans l’onglet «
               Outils » du navigateur puis sélectionnez le menu « Options ». Dans
               la fenêtre qui s’affiche, choisissez « Vie privée » et cliquez sur
               « Affichez les cookies ». Repérez les fichiers que vous refusez.
               Sélectionnez-les et supprimez-les.
             </li>
-            <li>
+            <li class="indent-8">
               Si vous utilisez le navigateur Safari Dans votre navigateur,
               choisissez le menu « Édition Préférences ». Cliquez sur « Sécurité
               ». Cliquez sur « Afficher les cookies ». Sélectionnez les cookies
               que vous refusez et cliquez sur « Effacer » ou sur « Tout effacer
               ». Après avoir supprimé les cookies, cliquez sur « Terminé ».
             </li>
-            <li>
+            <li class="indent-8">
               Si vous utilisez le navigateur Google Chrome Cliquez sur l’icône
               du menu « Outils ». Sélectionnez « Options ». Cliquez sur l’onglet
               « Options avancées » et accédez à la section « Confidentialité ».
