@@ -11,8 +11,8 @@
       <div class="w-full lg:w-1/2">
         <nuxt-img
           sizes="sm:95vw md:50vw lg:95vw"
-          src="/img/cabinet.JPG"
-          alt="cabinet"
+          src="/img/GROUPE.JPG"
+          alt="groupe"
           class="mx-auto rounded-md shadow-lg shadow-sky-800 md:rounded-xl"
         />
       </div>
