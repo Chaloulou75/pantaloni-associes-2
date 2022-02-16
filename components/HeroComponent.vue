@@ -10,7 +10,7 @@
     <div
       class="flex flex-col items-center justify-between min-h-screen mx-auto"
     >
-      <div class="relative mt-auto space-y-6 mb-44 md:mb-72">
+      <div class="relative mt-auto mb-20 space-y-6">
         <h1
           class="text-4xl font-black text-center underline transition duration-200 decoration-gold-yellow underline-offset-8 md:text-7xl"
         >
