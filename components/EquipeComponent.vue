@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-full" id="equipe">
     <h2
-      class="sticky top-0 z-30 py-4 text-3xl font-semibold tracking-wider text-center bg-gray-300/50 backdrop-blur-xs"
+      class="sticky top-0 z-30 py-4 text-3xl font-semibold tracking-wider text-center bg-gray-300/50 backdrop-blur-xs backdrop-filter"
     >
       L'équipe
     </h2>

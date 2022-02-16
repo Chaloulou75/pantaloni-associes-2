@@ -16,7 +16,8 @@ module.exports = {
       },
       backgroundImage: {
         "hero-palais": "url('~/assets/img/palaisj.jpg')",
-        "hero-cabinet": "url('~/assets/img/cabinet.JPG')",
+        // "hero-cabinet": "url('~/assets/img/cabinet.JPG')",
+        "hero-cabinet": "url('/img/cabinet.JPG')",
       },
       fontFamily: {
         cormorant: ["Cormorant Garamond", "font-sans"],

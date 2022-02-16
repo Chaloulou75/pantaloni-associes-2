@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full" id="expertise">
+  <div class="min-h-full pb-28" id="expertise">
     <h2
       class="sticky top-0 z-30 py-4 text-3xl font-semibold tracking-wider text-center bg-gray-300/50 backdrop-blur-xs"
     >
