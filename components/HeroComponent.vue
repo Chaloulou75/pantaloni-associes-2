@@ -14,12 +14,12 @@
         <h1
           class="text-4xl font-black text-center underline transition duration-200 decoration-gold-yellow underline-offset-8 md:text-7xl"
         >
-          <span class="text-transparent bg-gray-900 bg-clip-text">
+          <span class="text-transparent bg-white bg-clip-text md:bg-gray-900">
             Pantaloni &amp; Associés
           </span>
         </h1>
         <h2
-          class="text-3xl font-semibold text-center text-gray-900 underline transition duration-200 decoration-gold-yellow underline-offset-8 md:text-6xl"
+          class="text-3xl font-semibold text-center text-white underline transition duration-200 decoration-gold-yellow underline-offset-8 md:text-6xl md:text-gray-900"
         >
           - Avocats à la Cour -
         </h2>
