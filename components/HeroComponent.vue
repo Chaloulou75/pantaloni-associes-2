@@ -4,11 +4,13 @@
     id="herotop"
   >
     <div
-      class="absolute inset-0 bg-sky-800 mix-blend-overlay backdrop-blur-sm backdrop-filter"
+      class="absolute inset-0 bg-sky-800 mix-blend-overlay backdrop-blur-sm"
     ></div>
     <!-- Navigation -->
-    <div class="flex flex-col items-center justify-center min-h-screen mx-auto">
-      <div class="relative mt-auto mb-12 space-y-6 md:mb-64">
+    <div
+      class="flex flex-col items-center justify-between min-h-screen mx-auto"
+    >
+      <div class="relative mt-auto space-y-6 mb-44 md:mb-72">
         <h1
           class="text-4xl font-black text-center underline transition duration-200 decoration-gold-yellow underline-offset-8 md:text-7xl"
         >
