@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative w-full min-h-screen bg-center bg-no-repeat bg-cover bg-hero-cabinet"
+    class="relative min-h-screen w-full bg-hero-cabinet bg-cover bg-center bg-no-repeat"
     id="herotop"
   >
     <div
@@ -8,18 +8,18 @@
     ></div>
     <!-- Navigation -->
     <div
-      class="flex flex-col items-center justify-between min-h-screen mx-auto"
+      class="mx-auto flex min-h-screen flex-col items-center justify-between"
     >
-      <div class="relative mt-auto mb-20 space-y-6">
+      <div class="relative mt-auto mb-20 space-y-6 lg:mb-52">
         <h1
-          class="text-4xl font-black text-center underline transition duration-200 decoration-gold-yellow underline-offset-8 md:text-7xl"
+          class="text-center text-4xl font-black underline decoration-gold-yellow underline-offset-8 transition duration-200 md:text-7xl"
         >
-          <span class="text-transparent bg-white bg-clip-text md:bg-gray-900">
+          <span class="bg-white bg-clip-text text-transparent md:bg-gray-900">
             Pantaloni &amp; Associés
           </span>
         </h1>
         <h2
-          class="text-3xl font-semibold text-center text-white underline transition duration-200 decoration-gold-yellow underline-offset-8 md:text-6xl md:text-gray-900"
+          class="text-center text-3xl font-semibold text-white underline decoration-gold-yellow underline-offset-8 transition duration-200 md:text-6xl md:text-gray-900"
         >
           - Avocats à la Cour -
         </h2>
@@ -30,22 +30,22 @@
           class="flex flex-col justify-around space-y-3 text-lg font-bold uppercase md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
-            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-4 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#cabinet">Le cabinet</a>
           </li>
           <li
-            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-4 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#equipe">L'equipe</a>
           </li>
           <li
-            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-4 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#expertise">Expertise</a>
           </li>
           <li
-            class="relative px-3 tracking-wide text-white transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-4 hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-4 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
           >
             <a href="#contact">Contact</a>
           </li>

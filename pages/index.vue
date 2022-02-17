@@ -1,5 +1,5 @@
 <template>
-  <div class="relative min-h-screen bg-gray-100 scroll-smooth font-cormorant">
+  <div class="relative min-h-screen scroll-smooth bg-gray-100 font-cormorant">
     <HeroComponent />
     <CabinetComponent />
     <EquipeComponent />
@@ -16,11 +16,11 @@
     <VisibleComponent when-hidden="#herotop">
       <div class="fixed bottom-0 right-0 z-20 mb-16 mr-6">
         <div
-          class="p-2 bg-gray-400 border border-white rounded-full opacity-75 hover:opacity-100"
+          class="rounded-full border border-white bg-gray-400 p-2 opacity-75 hover:opacity-100"
         >
           <ScrollLinkComponent href="#herotop" class="text-gray-800">
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -37,6 +37,9 @@
         </div>
       </div>
     </VisibleComponent>
+    <div
+      class="hidden backdrop-brightness-0 backdrop-contrast-0 backdrop-grayscale-0 backdrop-hue-rotate-0 backdrop-invert-0 backdrop-opacity-0 backdrop-saturate-0 backdrop-sepia-0"
+    ></div>
   </div>
 </template>
 
