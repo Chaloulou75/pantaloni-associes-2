@@ -37,9 +37,6 @@
         </div>
       </div>
     </VisibleComponent>
-    <div
-      class="hidden backdrop-brightness-0 backdrop-contrast-0 backdrop-grayscale-0 backdrop-hue-rotate-0 backdrop-invert-0 backdrop-opacity-0 backdrop-saturate-0 backdrop-sepia-0"
-    ></div>
   </div>
 </template>
 
