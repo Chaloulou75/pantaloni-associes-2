@@ -10,16 +10,16 @@
     <div
       class="mx-auto flex min-h-screen flex-col items-center justify-between"
     >
-      <div class="relative mt-auto mb-20 space-y-8 lg:mb-44">
+      <div class="relative mt-auto mb-20 space-y-8">
         <h1
-          class="animate-fade-in-down text-center text-4xl font-normal underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-8xl"
+          class="animate-fade-in-down text-center text-4xl font-normal underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-6xl lg:text-8xl"
         >
           <span class="bg-gray-900 bg-clip-text text-transparent">
             Pantaloni &amp; Associés
           </span>
         </h1>
         <h2
-          class="animate-fade-in-down-delai text-center text-3xl font-medium text-gray-900 underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-6xl"
+          class="animate-fade-in-down-delai text-center text-3xl font-medium text-gray-900 underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-4xl lg:text-6xl"
         >
           - Avocats à la Cour -
         </h2>
