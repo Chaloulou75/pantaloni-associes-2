@@ -12,7 +12,7 @@
           sizes="sm:95vw md:50vw lg:95vw"
           src="/img/cabinet.JPG"
           alt="cabinet"
-          class="mx-auto rounded-md shadow-lg shadow-sky-800 md:rounded-xl"
+          class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">

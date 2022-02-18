@@ -4,7 +4,7 @@
     id="herotop"
   >
     <div
-      class="absolute inset-0 bg-sky-800/10 mix-blend-overlay backdrop-blur-xs"
+      class="absolute inset-0 bg-sky-600/70 mix-blend-overlay backdrop-blur-xs"
     ></div>
     <!-- Navigation -->
     <div
@@ -27,7 +27,7 @@
       <!---menu -->
       <div class="my-20 mr-auto md:mx-auto">
         <ul
-          class="flex animate-fade-in-down-delai flex-col justify-around space-y-3 text-lg font-normal uppercase md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
+          class="flex animate-fade-in-down-delai-more flex-col justify-around space-y-3 text-lg font-normal uppercase md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
             class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
