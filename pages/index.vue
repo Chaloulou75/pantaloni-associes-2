@@ -14,7 +14,7 @@
     <ContactComponent />
     <FooterComponent />
     <VisibleComponent when-hidden="#herotop">
-      <div class="fixed bottom-0 right-0 z-20 mb-16 mr-6">
+      <div class="fixed bottom-0 right-0 z-40 mb-16 mr-6">
         <div
           class="rounded-full border border-white bg-gray-400 p-2 opacity-75 hover:opacity-100"
         >

@@ -1,16 +1,16 @@
 <template>
   <div class="min-h-full bg-gray-800" id="contact">
     <h2
-      class="sticky top-0 z-30 mb-4 bg-gray-800 py-4 text-center text-xl font-medium uppercase tracking-wider text-white backdrop-blur-xs"
+      class="sticky top-0 z-30 mb-8 bg-gray-800 py-4 text-center text-xl font-medium uppercase tracking-wider text-white backdrop-blur-xs"
     >
       Contact
     </h2>
 
     <div class="justify-around pb-32 lg:flex">
       <div
-        class="flex w-full justify-start px-2 tracking-wider text-gray-100 lg:w-1/3 lg:justify-center lg:px-8"
+        class="flex w-full justify-start px-2 tracking-wider text-gray-100 lg:w-1/3 lg:justify-center"
       >
-        <div class="rounded-lg px-2 py-4 lg:px-12">
+        <div>
           <p class="flex items-center text-lg lg:text-xl">
             <svg
               class="mr-4 inline-block h-6 w-6"
@@ -42,7 +42,7 @@
       <div
         class="flex w-full justify-start px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
-        <div class="rounded-lg px-2 py-4 lg:my-0 lg:px-12">
+        <div>
           <p
             class="flex cursor-pointer items-center pb-4 text-center text-lg font-light text-gray-100 lg:text-xl"
           >
@@ -69,10 +69,10 @@
         </div>
       </div>
       <div
-        class="lg:px:8 flex w-full justify-start px-2 text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex w-full justify-start px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
-        <div class="rounded-lg px-2 py-4 lg:my-0 lg:px-12">
-          <p class="flex items-center text-lg lg:my-0">
+        <div>
+          <p class="flex items-center text-lg">
             <svg
               class="mr-4 inline-block h-6 w-6"
               fill="none"

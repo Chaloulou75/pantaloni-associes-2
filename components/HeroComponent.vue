@@ -4,7 +4,7 @@
     id="herotop"
   >
     <div
-      class="absolute inset-0 bg-sky-800/50 mix-blend-overlay backdrop-blur-sm"
+      class="absolute inset-0 bg-sky-800/10 mix-blend-overlay backdrop-blur-xs"
     ></div>
     <!-- Navigation -->
     <div
