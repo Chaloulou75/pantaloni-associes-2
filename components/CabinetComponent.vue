@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-full" id="cabinet">
     <h2
-      class="sticky top-0 z-30 bg-gray-300/50 py-4 text-center text-3xl font-medium tracking-wider backdrop-blur-xs"
+      class="sticky top-0 z-30 bg-gray-300/50 py-4 text-center text-xl font-medium uppercase tracking-wider backdrop-blur-xs"
     >
       Le cabinet
     </h2>

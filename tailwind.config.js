@@ -1,7 +1,4 @@
 module.exports = {
-  experimental: {
-    optimizeUniversalDefaults: true,
-  },
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",

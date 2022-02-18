@@ -79,7 +79,16 @@ export default {
     },
     html: {
       minify: {
+        collapseBooleanAttributes: true,
         decodeEntities: false,
+        minifyCSS: false,
+        processConditionalComments: true,
+        removeEmptyAttributes: false,
+        removeRedundantAttributes: false,
+        trimCustomFragments: false,
+        useShortDoctype: true,
+        preserveLineBreaks: false,
+        collapseWhitespace: false,
       },
     },
   },
