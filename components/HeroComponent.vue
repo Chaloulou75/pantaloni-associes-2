@@ -10,9 +10,9 @@
     <div
       class="mx-auto flex min-h-screen flex-col items-center justify-between"
     >
-      <div class="relative mt-auto mb-20 space-y-6 lg:mb-44">
+      <div class="relative mt-auto mb-20 space-y-8 lg:mb-44">
         <h1
-          class="text-center text-5xl font-normal underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-8xl"
+          class="text-center text-4xl font-normal underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-8xl"
         >
           <span class="bg-gray-900 bg-clip-text text-transparent">
             Pantaloni &amp; Associés

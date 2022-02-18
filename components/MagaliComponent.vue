@@ -1,7 +1,7 @@
 <template>
   <div class="h-auto py-20" id="MagaliGreiner">
     <h2
-      class="mb-4 py-2 text-center text-3xl font-normal text-gray-800 lg:text-5xl"
+      class="mb-4 py-2 text-center text-4xl font-normal text-gray-800 lg:text-5xl"
     >
       Magali Greiner
     </h2>
