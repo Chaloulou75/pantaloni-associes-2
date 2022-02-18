@@ -12,14 +12,14 @@
     >
       <div class="relative mt-auto mb-20 space-y-8 lg:mb-44">
         <h1
-          class="text-center text-4xl font-normal underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-8xl"
+          class="animate-fade-in-down text-center text-4xl font-normal underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-8xl"
         >
           <span class="bg-gray-900 bg-clip-text text-transparent">
             Pantaloni &amp; Associés
           </span>
         </h1>
         <h2
-          class="text-center text-3xl font-medium text-gray-900 underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-6xl"
+          class="animate-fade-in-down-delai text-center text-3xl font-medium text-gray-900 underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-6xl"
         >
           - Avocats à la Cour -
         </h2>
@@ -27,7 +27,7 @@
       <!---menu -->
       <div class="my-20 mr-auto md:mx-auto">
         <ul
-          class="flex flex-col justify-around space-y-3 text-lg font-normal uppercase md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
+          class="flex animate-fade-in-down-delai flex-col justify-around space-y-3 text-lg font-normal uppercase md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
             class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
