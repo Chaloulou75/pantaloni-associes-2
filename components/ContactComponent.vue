@@ -6,7 +6,7 @@
       Contact
     </h2>
 
-    <div class="justify-around pb-32 lg:flex">
+    <div class="justify-around space-y-6 pb-32 md:space-y-0 lg:flex">
       <div
         class="flex w-full justify-start px-2 tracking-wider text-gray-100 lg:w-1/3 lg:justify-center"
       >

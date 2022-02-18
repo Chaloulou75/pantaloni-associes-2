@@ -4,7 +4,7 @@
     id="herotop"
   >
     <div
-      class="absolute inset-0 bg-sky-600/70 mix-blend-overlay backdrop-blur-xs"
+      class="absolute inset-0 bg-sky-400/50 mix-blend-overlay backdrop-blur-xs"
     ></div>
     <!-- Navigation -->
     <div
@@ -14,12 +14,12 @@
         <h1
           class="animate-fade-in-down text-center text-4xl font-normal underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-6xl lg:text-8xl"
         >
-          <span class="bg-gray-900 bg-clip-text text-transparent">
+          <span class="bg-black bg-clip-text text-transparent">
             Pantaloni &amp; Associés
           </span>
         </h1>
         <h2
-          class="animate-fade-in-down-delai text-center text-3xl font-medium text-gray-900 underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-4xl lg:text-6xl"
+          class="animate-fade-in-down-delai text-center text-3xl font-medium text-black underline decoration-gold-yellow decoration-2 underline-offset-8 transition duration-200 md:text-4xl lg:text-6xl"
         >
           - Avocats à la Cour -
         </h2>
@@ -30,22 +30,22 @@
           class="flex animate-fade-in-down-delai-more flex-col justify-around space-y-3 text-lg font-normal uppercase md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
-            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-black"
           >
             <a href="#cabinet">Le cabinet</a>
           </li>
           <li
-            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-black"
           >
             <a href="#equipe">L'equipe</a>
           </li>
           <li
-            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-black"
           >
             <a href="#expertise">Expertise</a>
           </li>
           <li
-            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-gray-900"
+            class="relative cursor-pointer px-3 tracking-wide text-white decoration-gold-yellow decoration-2 transition duration-300 ease-in-out hover:translate-x-2 hover:underline hover:underline-offset-4 md:text-black"
           >
             <a href="#contact">Contact</a>
           </li>
