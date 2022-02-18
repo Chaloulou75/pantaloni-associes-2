@@ -22,18 +22,15 @@ module.exports = {
         cormorant: ["Cormorant Garamond", "font-sans"],
       },
       animation: {
-        tilt: "tilt 10s infinite linear",
+        letterDown: "letterDown 2s linear 1s",
       },
       keyframes: {
-        tilt: {
-          "0%, 50%, 100%": {
-            transform: "rotate(0deg)",
+        letterDown: {
+          "0%": {
+            transform: "scale(0)",
           },
-          "25%": {
-            transform: "rotate(0.5deg)",
-          },
-          "75%": {
-            transform: "rotate(-0.5deg)",
+          "100%": {
+            transform: "scale(1)",
           },
         },
       },

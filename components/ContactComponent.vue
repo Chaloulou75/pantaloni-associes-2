@@ -1,19 +1,19 @@
 <template>
   <div class="min-h-full bg-gray-800" id="contact">
     <h2
-      class="sticky top-0 z-30 py-4 mb-4 text-3xl font-semibold tracking-wider text-center text-white bg-gray-800/50 backdrop-blur-xs"
+      class="sticky top-0 z-30 mb-4 bg-gray-800/50 py-4 text-center text-3xl font-medium tracking-wider text-white backdrop-blur-xs"
     >
       Contact
     </h2>
 
     <div class="justify-around pb-32 lg:flex">
       <div
-        class="flex justify-start w-full px-2 text-gray-100 lg:px:8 lg:w-1/3 lg:justify-center"
+        class="flex w-full justify-start px-2 tracking-wider text-gray-100 lg:w-1/3 lg:justify-center lg:px-8"
       >
-        <div class="px-2 py-4 rounded-lg lg:px-12">
+        <div class="rounded-lg px-2 py-4 lg:px-12">
           <p class="flex items-center text-lg lg:text-xl">
             <svg
-              class="inline-block w-6 h-6 mr-4"
+              class="mr-4 inline-block h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -28,7 +28,9 @@
             </svg>
             Adresse:
           </p>
-          <p class="mt-4 ml-10 text-lg text-gold-yellow lg:text-2xl">
+          <p
+            class="mt-4 ml-10 text-lg font-extralight text-gold-yellow lg:text-2xl"
+          >
             Pantaloni &amp; Associés | Avocats
           </p>
           <p class="ml-10 text-lg">15 Rue Saussier Leroy</p>
@@ -38,14 +40,14 @@
       </div>
 
       <div
-        class="flex justify-start w-full px-2 text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex w-full justify-start px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
-        <div class="px-2 py-4 rounded-lg lg:my-0 lg:px-12">
+        <div class="rounded-lg px-2 py-4 lg:my-0 lg:px-12">
           <p
-            class="flex items-center pb-4 text-lg text-center text-gray-100 cursor-pointer"
+            class="flex cursor-pointer items-center pb-4 text-center text-lg font-light text-gray-100 lg:text-xl"
           >
             <svg
-              class="inline-block w-6 h-6 mr-4 lg:mr-2"
+              class="mr-4 inline-block h-6 w-6 lg:mr-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -60,19 +62,19 @@
             </svg>
             <Mailto
               mail="mpantaloni@pantaloni-avocats.com"
-              class="underline transition duration-200 ease-in-out decoration-gold-yellow underline-offset-4 hover:translate-x-1"
+              class="tracking-wide underline decoration-gold-yellow underline-offset-4 transition duration-200 ease-in-out hover:translate-x-1"
               >mpantaloni@pantaloni-avocats.com</Mailto
             >
           </p>
         </div>
       </div>
       <div
-        class="flex justify-start w-full px-2 text-gray-100 lg:px:8 lg:w-1/3 lg:justify-center"
+        class="lg:px:8 flex w-full justify-start px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
-        <div class="px-2 py-4 rounded-lg lg:my-0 lg:px-12">
+        <div class="rounded-lg px-2 py-4 lg:my-0 lg:px-12">
           <p class="flex items-center text-lg lg:my-0">
             <svg
-              class="inline-block w-6 h-6 mr-4"
+              class="mr-4 inline-block h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -87,8 +89,8 @@
             </svg>
             <a href="tel:+33185734050">+ 33 1 85 73 40 50</a>
           </p>
-          <p class="flex items-center mt-2 text-lg">
-            <span class="p-1 mr-2"> Fax: </span> + 33 1 86 95 29 57
+          <p class="mt-2 flex items-center text-lg">
+            <span class="mr-2 p-1"> Fax: </span> + 33 1 86 95 29 57
           </p>
         </div>
       </div>

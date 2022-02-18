@@ -1,6 +1,9 @@
 <template>
   <div class="bg-gray-100 font-cormorant">
-    <nav class="relative flex justify-between w-full px-6 py-4">
+    <nav
+      class="relative flex justify-between w-full px-6 py-4"
+      id="nav_Mention"
+    >
       <NuxtLink
         to="/"
         class="text-sm font-medium text-gray-900 transition duration-500 ease-in-out transform border-b border-gray-800 cursor-pointer hover:border-gray-900 hover:font-semibold hover:text-black lg:text-base"
@@ -13,6 +16,7 @@
       <h1 class="py-4 mb-4 text-3xl font-semibold tracking-wider text-center">
         -Mentions légales-
       </h1>
+      <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
       <div class="mb-6 text-lg">
         <p>
           Raison sociale : Pantaloni &amp; Associés<br />
@@ -176,15 +180,44 @@
       </div>
     </div>
 
+    <VisibleComponent when-hidden="#nav_Mention">
+      <div class="fixed bottom-0 right-0 z-20 mb-16 mr-6">
+        <div
+          class="p-2 bg-gray-400 border border-white rounded-full opacity-75 hover:opacity-100"
+        >
+          <ScrollLinkComponent href="#nav_Mention" class="text-gray-800">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"
+              ></path>
+            </svg>
+          </ScrollLinkComponent>
+        </div>
+      </div>
+    </VisibleComponent>
+
     <FooterComponent />
   </div>
 </template>
 
 <script>
 import FooterComponent from "~/components/FooterComponent.vue";
+import VisibleComponent from "~/components/VisibleComponent.vue";
+import ScrollLinkComponent from "~/components/ScrollLinkComponent.vue";
 export default {
   components: {
     FooterComponent,
+    VisibleComponent,
+    ScrollLinkComponent,
   },
 };
 </script>
