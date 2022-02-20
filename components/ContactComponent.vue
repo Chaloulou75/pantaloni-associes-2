@@ -44,7 +44,7 @@
       >
         <div>
           <p
-            class="flex cursor-pointer items-center pb-4 text-center text-lg font-light text-gray-100 lg:text-xl"
+            class="flex cursor-pointer items-center justify-start pb-4 text-lg font-light text-gray-100 lg:text-xl"
           >
             <svg
               class="mr-4 inline-block h-6 w-6 lg:mr-2"
