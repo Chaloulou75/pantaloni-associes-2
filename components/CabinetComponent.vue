@@ -38,7 +38,10 @@
           <span
             class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >confidentialité</span
-          >. Le Cabinet favorise
+          >.
+        </p>
+        <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+          Le Cabinet favorise
           <span
             class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
             >la réactivité</span
