@@ -37,7 +37,7 @@
       <!---menu -->
       <div class="my-20 mr-auto md:mx-auto">
         <ul
-          class="flex flex-col justify-around space-y-3 text-lg font-bold uppercase animate-fade-in-down-delai-more md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
+          class="flex flex-col justify-around space-y-3 text-lg font-medium uppercase animate-fade-in-down-delai-more md:flex-row md:space-x-8 md:space-y-0 md:font-bold lg:text-2xl"
         >
           <li
             class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-gold-yellow decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
