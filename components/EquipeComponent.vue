@@ -1,11 +1,11 @@
 <template>
   <div class="min-h-full" id="equipe">
     <h2
-      class="sticky top-0 z-30 bg-gray-300/50 py-4 text-center text-xl font-medium uppercase tracking-wider backdrop-blur-xs"
+      class="sticky top-0 z-30 py-4 text-xl font-medium tracking-wider text-center uppercase bg-gray-300/50 backdrop-blur-xs"
     >
       L'équipe
     </h2>
-    <div class="my-8 items-center justify-between lg:flex">
+    <!-- <div class="items-center justify-between my-8 lg:flex">
       <div class="w-full">
         <nuxt-img
           sizes="sm:95vw md:80vw lg:800px"
@@ -14,7 +14,7 @@
           class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
       </div>
-    </div>
+    </div> -->
     <MarcComponent />
     <MagaliComponent />
     <GhinwaComponent />

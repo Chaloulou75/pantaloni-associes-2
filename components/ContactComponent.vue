@@ -1,19 +1,19 @@
 <template>
   <div class="min-h-full bg-gray-800" id="contact">
     <h2
-      class="sticky top-0 z-30 mb-8 bg-gray-800 py-4 text-center text-xl font-medium uppercase tracking-wider text-white backdrop-blur-xs"
+      class="sticky top-0 z-30 py-4 mb-8 text-xl font-medium tracking-wider text-center text-white uppercase bg-gray-800 backdrop-blur-xs"
     >
       Contact
     </h2>
 
-    <div class="justify-around space-y-6 pb-32 md:space-y-0 lg:flex">
+    <div class="justify-around pb-32 space-y-6 md:space-y-0 lg:flex">
       <div
-        class="flex w-full justify-start px-2 tracking-wider text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex justify-start w-full px-2 tracking-wider text-gray-100 lg:w-1/3 lg:justify-center"
       >
         <div>
           <p class="flex items-center text-lg lg:text-xl">
             <svg
-              class="mr-4 inline-block h-6 w-6"
+              class="inline-block w-6 h-6 mr-4"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -40,14 +40,14 @@
       </div>
 
       <div
-        class="flex w-full justify-start px-2 text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex justify-start w-full px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
         <div>
           <p
-            class="flex cursor-pointer items-center justify-start pb-4 text-lg font-light text-gray-100 lg:text-xl"
+            class="flex items-center justify-start pb-4 text-lg font-light text-gray-100 cursor-pointer lg:text-xl"
           >
             <svg
-              class="mr-4 inline-block h-6 w-6 lg:mr-2"
+              class="inline-block w-6 h-6 mr-4 lg:mr-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -61,20 +61,24 @@
               ></path>
             </svg>
             <Mailto
-              mail="mpantaloni@pantaloni-avocats.com"
-              class="tracking-wide underline decoration-gold-yellow underline-offset-4 transition duration-200 ease-in-out hover:translate-x-1"
-              >mpantaloni@pantaloni-avocats.com</Mailto
+              mail="info@pantaloni-avocats.com"
+              class="tracking-wide underline transition duration-200 ease-in-out decoration-gold-yellow underline-offset-4 hover:translate-x-1"
+              >info@pantaloni-avocats.com</Mailto
             >
           </p>
         </div>
       </div>
       <div
-        class="flex w-full justify-start px-2 text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex justify-start w-full px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
-        <div>
-          <p class="flex items-center text-lg">
+        <div class="text-lg tracking-wide">
+          <p>
+            <span class="p-1 mr-2"> Horaires du secrétariat: </span> de 9h30 à
+            17h30
+          </p>
+          <div class="flex items-center mt-2">
             <svg
-              class="mr-4 inline-block h-6 w-6"
+              class="inline-block w-6 h-6 mr-4"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -88,9 +92,9 @@
               ></path>
             </svg>
             <a href="tel:+33185734050">+ 33 1 85 73 40 50</a>
-          </p>
-          <p class="mt-2 flex items-center text-lg">
-            <span class="mr-2 p-1"> Fax: </span> + 33 1 86 95 29 57
+          </div>
+          <p class="mt-2">
+            <span class="p-1 mr-2"> Fax: </span> + 33 1 86 95 29 57
           </p>
         </div>
       </div>

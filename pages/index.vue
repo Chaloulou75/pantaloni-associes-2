@@ -1,6 +1,6 @@
 <template>
-  <div class="relative min-h-screen scroll-smooth bg-gray-100 font-cormorant">
-    <HeroComponent />
+  <div class="relative min-h-screen bg-gray-100 scroll-smooth font-cormorant">
+    <HeroPalaisComponent />
     <CabinetComponent />
     <EquipeComponent />
     <ExpertiseComponent />
@@ -16,11 +16,11 @@
     <VisibleComponent when-hidden="#herotop">
       <div class="fixed bottom-0 right-0 z-40 mb-16 mr-6">
         <div
-          class="rounded-full border border-white bg-gray-400 p-2 opacity-75 hover:opacity-100"
+          class="p-2 bg-gray-400 border border-white rounded-full opacity-75 hover:opacity-100"
         >
           <ScrollLinkComponent href="#herotop" class="text-gray-800">
             <svg
-              class="h-6 w-6"
+              class="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -43,7 +43,7 @@
 <script>
 import ContactComponent from "~/components/ContactComponent.vue";
 import FooterComponent from "~/components/FooterComponent.vue";
-import HeroComponent from "~/components/HeroComponent.vue";
+import HeroPalaisComponent from "~/components/HeroPalaisComponent.vue";
 import ExpertiseComponent from "~/components/ExpertiseComponent.vue";
 import CabinetComponent from "~/components/CabinetComponent.vue";
 import EquipeComponent from "~/components/EquipeComponent.vue";
@@ -54,7 +54,7 @@ export default {
   components: {
     ContactComponent,
     FooterComponent,
-    HeroComponent,
+    HeroPalaisComponent,
     ExpertiseComponent,
     CabinetComponent,
     EquipeComponent,
