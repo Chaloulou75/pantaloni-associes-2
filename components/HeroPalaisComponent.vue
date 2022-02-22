@@ -4,7 +4,7 @@
       sizes="sm:100vw"
       src="/img/arc.jpg"
       alt="arc"
-      class="absolute inset-0 object-cover w-full h-full bg-blend-overlay"
+      class="absolute inset-0 hidden object-cover w-full h-full bg-blend-overlay md:block"
     />
     <nuxt-img
       sizes="sm:100vw"
