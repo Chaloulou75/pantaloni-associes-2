@@ -16,7 +16,7 @@
       <h1 class="py-4 mb-4 text-3xl font-semibold tracking-wider text-center">
         -Mentions légales-
       </h1>
-      <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
+      <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
       <div class="mb-6 text-lg">
         <p>
           Raison sociale : Pantaloni &amp; Associés<br />

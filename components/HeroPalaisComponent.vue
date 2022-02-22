@@ -7,14 +7,14 @@
       sizes="sm:100vw"
       src="/img/palais3.jpg"
       alt="palais"
-      class="absolute inset-0 object-cover w-full h-full opacity-90 mix-blend-overlay"
+      class="absolute inset-0 object-cover w-full h-full mix-blend-overlay"
     />
 
     <nuxt-img
       sizes="sm:100vw"
       src="/img/arc.jpg"
       alt="arc"
-      class="absolute inset-0 object-cover w-full h-full opacity-95 mix-blend-overlay"
+      class="absolute inset-0 object-cover w-full h-full opacity-75 mix-blend-darken"
     />
     <!-- Navigation -->
     <div
