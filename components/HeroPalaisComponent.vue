@@ -2,16 +2,15 @@
   <div class="relative w-full min-h-screen bg-gray-200" id="herotop">
     <nuxt-img
       sizes="sm:100vw"
-      src="/img/palais3.jpg"
-      alt="palais"
-      class="absolute inset-0 object-cover w-full h-full opacity-80 mix-blend-overlay"
-    />
-
-    <nuxt-img
-      sizes="sm:100vw"
       src="/img/arc.jpg"
       alt="arc"
-      class="absolute inset-0 object-cover w-full h-full opacity-80 mix-blend-luminosity"
+      class="absolute inset-0 object-cover w-full h-full mix-blend-multiply"
+    />
+    <nuxt-img
+      sizes="sm:100vw"
+      src="/img/palais3.jpg"
+      alt="palais"
+      class="absolute inset-0 object-cover w-full h-full opacity-40 mix-blend-overlay"
     />
     <!-- Navigation -->
     <div
