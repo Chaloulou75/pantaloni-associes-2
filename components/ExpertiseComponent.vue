@@ -15,7 +15,7 @@
         />
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">
-        <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
         <!-- <h3 class="py-2 text-2xl font-medium text-center">Un sous titre</h3> -->
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Depuis sa constitution, le Cabinet
@@ -47,7 +47,7 @@
             >Droit des assurances</span
           >.
         </p>
-        <div class="py-6 mx-auto indent-8">
+        <div class="py-6 mx-auto">
           <ul class="space-y-4 text-xl tracking-wide list-disc list-inside">
             <li class="font-semibold">Droit pénal</li>
             <li class="font-semibold">Droit de la construction</li>
@@ -55,7 +55,7 @@
             <li class="font-semibold">Droit des assurances</li>
           </ul>
         </div>
-        <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
       </div>
     </div>
   </div>

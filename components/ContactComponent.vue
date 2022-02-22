@@ -29,7 +29,7 @@
             Adresse:
           </p>
           <p
-            class="mt-4 ml-10 text-lg font-extralight text-gold-yellow lg:text-2xl"
+            class="mt-4 ml-10 text-lg text-pink-400 font-extralight lg:text-2xl"
           >
             Pantaloni &amp; Associés | Avocats
           </p>
@@ -62,7 +62,7 @@
             </svg>
             <Mailto
               mail="info@pantaloni-avocats.com"
-              class="tracking-wide underline transition duration-200 ease-in-out decoration-gold-yellow underline-offset-4 hover:translate-x-1"
+              class="tracking-wide underline transition duration-200 ease-in-out decoration-pink-400 underline-offset-4 hover:translate-x-1"
               >info@pantaloni-avocats.com</Mailto
             >
           </p>

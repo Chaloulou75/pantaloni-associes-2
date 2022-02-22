@@ -16,11 +16,10 @@
         />
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">
-        <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
-        <!-- <h3 class="py-2 text-2xl font-medium text-center">Un sous titre</h3> -->
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Situé en plein cœur du 17ème arrondissement de Paris, entre le Nouveau
-          Palais de Justice et l’Arc de Triomphe, le cabinet
+          Palais de Justice et l’Arc de Triomphe, le Cabinet
           <span class="font-bold text-sky-800"> PANTALONI &amp; ASSOCIES </span>
           conseille et assure la défense d’une clientèle constituée
           d’Institutionnels, de grandes sociétés, moyennes et petites
@@ -54,7 +53,7 @@
           préoccupations de ses clients.
         </p>
 
-        <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
       </div>
     </div>
   </div>

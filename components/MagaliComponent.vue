@@ -5,7 +5,7 @@
     >
       Magali Greiner
     </h2>
-    <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
+    <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
     <div class="lg:flex lg:flex-row-reverse lg:items-center lg:justify-between">
       <div class="w-full lg:w-1/2">
         <nuxt-img
@@ -57,7 +57,7 @@
             avant d’envisager un traitement judiciaire des dossiers.
           </p>
         </div>
-        <div class="w-1/4 mx-auto my-8 border-t border-gold-yellow"></div>
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
       </div>
     </div>
   </div>
