@@ -1,20 +1,17 @@
 <template>
-  <div
-    class="relative w-full min-h-screen bg-opacity-30 bg-gradient-to-br from-pink-200 to-gray-400"
-    id="herotop"
-  >
+  <div class="relative w-full min-h-screen bg-gray-200" id="herotop">
     <nuxt-img
       sizes="sm:100vw"
       src="/img/palais3.jpg"
       alt="palais"
-      class="absolute inset-0 object-cover w-full h-full mix-blend-overlay"
+      class="absolute inset-0 object-cover w-full h-full opacity-80 mix-blend-overlay"
     />
 
     <nuxt-img
       sizes="sm:100vw"
       src="/img/arc.jpg"
       alt="arc"
-      class="absolute inset-0 object-cover w-full h-full opacity-75 mix-blend-darken"
+      class="absolute inset-0 object-cover w-full h-full opacity-80 mix-blend-luminosity"
     />
     <!-- Navigation -->
     <div

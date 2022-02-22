@@ -49,10 +49,10 @@
         </p>
         <div class="py-6 mx-auto">
           <ul class="space-y-4 text-xl tracking-wide list-disc list-inside">
-            <li class="font-semibold">Droit pénal</li>
-            <li class="font-semibold">Droit de la construction</li>
-            <li class="font-semibold">Droit de la responsabilité</li>
-            <li class="font-semibold">Droit des assurances</li>
+            <li class="font-medium">Droit pénal</li>
+            <li class="font-medium">Droit de la construction</li>
+            <li class="font-medium">Droit de la responsabilité</li>
+            <li class="font-medium">Droit des assurances</li>
           </ul>
         </div>
         <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
