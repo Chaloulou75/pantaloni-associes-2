@@ -10,10 +10,10 @@
       sizes="sm:100vw"
       src="/img/arc.jpg"
       alt="arc"
-      class="absolute inset-0 object-cover w-full h-full opacity-70 bg-blend-overlay backdrop-blur-xs"
+      class="absolute inset-0 hidden object-cover w-full h-full opacity-70 bg-blend-overlay backdrop-blur-xs md:block"
     />
     <div
-      class="absolute inset-0 bg-pink-300/50 mix-blend-overlay backdrop-blur-xs"
+      class="absolute inset-0 bg-pink-300/50 mix-blend-overlay backdrop-blur-xxs"
     ></div>
 
     <!-- Navigation -->

@@ -15,7 +15,7 @@
           class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
         <div
-          class="absolute inset-0 bg-sky-400/50 mix-blend-overlay backdrop-blur-xs"
+          class="absolute inset-0 bg-sky-400/50 mix-blend-overlay backdrop-blur-xxs"
         ></div>
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">

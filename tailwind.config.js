@@ -12,6 +12,7 @@ module.exports = {
         "gold-yellow": "#FFDF00",
       },
       backdropBlur: {
+        xxs: "1px",
         xs: "2px",
       },
       backgroundImage: {
