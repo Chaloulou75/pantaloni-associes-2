@@ -1,17 +1,21 @@
 <template>
-  <div class="relative w-full min-h-screen bg-gray-200" id="herotop">
-    <nuxt-img
-      sizes="sm:100vw"
-      src="/img/arc.jpg"
-      alt="arc"
-      class="absolute inset-0 hidden object-cover w-full h-full bg-blend-overlay md:block"
-    />
+  <div class="relative w-full min-h-screen" id="herotop">
     <nuxt-img
       sizes="sm:100vw"
       src="/img/palais3.jpg"
       alt="palais"
-      class="absolute inset-0 object-cover w-full h-full opacity-50 bg-blend-overlay"
+      class="absolute inset-0 object-cover w-full h-full bg-blend-overlay"
     />
+    <nuxt-img
+      sizes="sm:100vw"
+      src="/img/arc.jpg"
+      alt="arc"
+      class="absolute inset-0 object-cover w-full h-full opacity-70 bg-blend-overlay backdrop-blur-xs"
+    />
+    <div
+      class="absolute inset-0 bg-pink-300/50 mix-blend-overlay backdrop-blur-xs"
+    ></div>
+
     <!-- Navigation -->
     <div
       class="flex flex-col items-center justify-between min-h-screen mx-auto"
@@ -33,7 +37,7 @@
       <!---menu -->
       <div class="my-20 mr-auto md:mx-auto">
         <ul
-          class="flex flex-col justify-around space-y-3 text-lg font-medium uppercase animate-fade-in-down-delai-more md:flex-row md:space-x-8 md:space-y-0 md:font-bold lg:text-2xl"
+          class="flex flex-col justify-around space-y-3 text-lg font-medium uppercase animate-fade-in-down-delai-more md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
             class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-pink-400 decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"

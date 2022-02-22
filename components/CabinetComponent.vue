@@ -7,13 +7,16 @@
     </h2>
 
     <div class="items-center justify-between py-8 mt-4 lg:flex lg:px-6">
-      <div class="w-full lg:w-1/2">
+      <div class="relative w-full mx-auto lg:w-1/2">
         <nuxt-img
           sizes="sm:95vw md:50vw lg:95vw"
           src="/img/cabinet.JPG"
           alt="cabinet"
           class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
+        <div
+          class="absolute inset-0 bg-sky-400/50 mix-blend-overlay backdrop-blur-xs"
+        ></div>
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">
         <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
