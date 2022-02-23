@@ -15,14 +15,14 @@
         />
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">
-        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
         <!-- <h3 class="py-2 text-2xl font-medium text-center">Un sous titre</h3> -->
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Depuis sa constitution, le Cabinet
           <span class="font-bold text-sky-800"> PANTALONI &amp; ASSOCIES </span>
           propose à ses clients un accompagnement
           <span
-            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
+            class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
             >sur mesure</span
           >
           dans ses domaines d’interventions.
@@ -30,20 +30,20 @@
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Le Cabinet dispose d’une compétence reconnue en
           <span
-            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
+            class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
             >matière pénale</span
           >, en
           <span
-            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
+            class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
             >Droit de la construction</span
           >, en
           <span
-            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
+            class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
             >Droit de la responsabilité</span
           >
           et en
           <span
-            class="font-semibold underline decoration-sky-500 decoration-2 underline-offset-2"
+            class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
             >Droit des assurances</span
           >.
         </p>
@@ -55,7 +55,7 @@
             <li class="font-medium">Droit des assurances</li>
           </ul>
         </div>
-        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
       </div>
     </div>
   </div>

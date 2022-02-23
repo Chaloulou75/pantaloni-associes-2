@@ -5,16 +5,6 @@
     >
       L'équipe
     </h2>
-    <!-- <div class="items-center justify-between my-8 lg:flex">
-      <div class="w-full">
-        <nuxt-img
-          sizes="sm:95vw md:80vw lg:800px"
-          src="/img/GROUPE.JPG"
-          alt="equipe"
-          class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
-        />
-      </div>
-    </div> -->
     <MarcComponent />
     <MagaliComponent />
     <GhinwaComponent />

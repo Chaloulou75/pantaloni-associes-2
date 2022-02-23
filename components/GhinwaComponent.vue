@@ -5,7 +5,7 @@
     >
       Ghinwa Rachwan
     </h2>
-    <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
+    <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
     <div class="lg:flex lg:items-center lg:justify-between">
       <div class="w-full lg:w-1/2">
         <nuxt-img
@@ -60,7 +60,7 @@
             Elle parle couramment le français, l'anglais, l'arabe et l'italien.
           </p>
         </div>
-        <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
+        <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
       </div>
     </div>
   </div>

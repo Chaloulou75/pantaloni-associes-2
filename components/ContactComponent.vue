@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-full bg-gray-800" id="contact">
+  <div class="min-h-full bg-gray-600" id="contact">
     <h2
-      class="sticky top-0 z-30 py-4 mb-8 text-xl font-medium tracking-wider text-center text-white uppercase bg-gray-800 backdrop-blur-xs"
+      class="sticky top-0 z-30 py-4 mb-8 text-xl font-medium tracking-wider text-center text-white uppercase bg-gray-600 backdrop-blur-xs"
     >
       Contact
     </h2>
@@ -29,7 +29,7 @@
             Adresse:
           </p>
           <p
-            class="mt-4 ml-10 text-lg text-pink-400 font-extralight lg:text-2xl"
+            class="mt-4 ml-10 text-lg font-extralight text-pink-cabinet lg:text-2xl"
           >
             Pantaloni &amp; Associés | Avocats
           </p>
@@ -62,7 +62,7 @@
             </svg>
             <Mailto
               mail="info@pantaloni-avocats.com"
-              class="tracking-wide underline transition duration-200 ease-in-out decoration-pink-400 underline-offset-4 hover:translate-x-1"
+              class="tracking-wide underline transition duration-200 ease-in-out decoration-pink-cabinet underline-offset-4 hover:translate-x-1"
               >info@pantaloni-avocats.com</Mailto
             >
           </p>
@@ -72,9 +72,9 @@
         class="flex justify-start w-full px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
         <div class="text-lg tracking-wide">
+          <p>Le cabinet vous reçoit sur rendez-vous.</p>
           <p>
-            <span class="p-1 mr-2"> Horaires du secrétariat: </span> de 9h30 à
-            17h30
+            <span class="mr-2"> Horaires d'ouvertures: </span> de 9h30 à 17h30
           </p>
           <div class="flex items-center mt-2">
             <svg
