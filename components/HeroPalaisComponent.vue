@@ -7,7 +7,7 @@
       class="absolute inset-0 object-cover w-full h-full opacity-50"
     />
     <div
-      class="absolute inset-0 backdrop-blur-xxs md:bg-pink-cabinet/50 md:mix-blend-overlay"
+      class="absolute inset-0 bg-pink-cabinet/50 mix-blend-overlay backdrop-blur-xxs"
     ></div>
 
     <!-- Navigation -->
