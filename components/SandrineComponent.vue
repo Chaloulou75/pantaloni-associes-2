@@ -1,25 +1,25 @@
 <template>
   <div class="h-auto py-20" id="SandrineNivetAbdoun">
     <h2
-      class="py-2 mb-4 text-4xl font-normal text-center text-gray-800 lg:text-5xl"
+      class="mb-4 py-2 text-center text-4xl font-normal text-gray-800 lg:text-5xl"
     >
       Sandrine Nivet-Abdoun
     </h2>
-    <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
+    <div class="mx-auto my-8 w-1/4 border-t border-pink-cabinet"></div>
     <div class="lg:flex lg:flex-row-reverse lg:items-center lg:justify-between">
       <div class="w-full lg:w-1/2">
         <nuxt-img
           sizes="sm:95vw md:50vw lg:400px"
           src="/img/SANDRINE_NIVET_ABDOUN.JPG"
           alt="Sandrine Nivet-Abdoun"
-          class="mx-auto shadow-lg rounded-xl shadow-sky-800/60"
+          class="mx-auto rounded-xl shadow-lg shadow-sky-800/60"
         />
       </div>
       <div
-        class="flex flex-col justify-between w-full px-4 py-4 mt-4 text-gray-800 lg:mt-0 lg:w-1/2 lg:pl-12"
+        class="mt-4 flex w-full flex-col justify-between px-4 py-4 text-gray-800 lg:mt-0 lg:w-1/2 lg:pl-12"
       >
         <ul
-          class="px-2 pt-2 mb-5 space-y-4 text-xl italic font-medium tracking-wide text-justify list-disc list-inside"
+          class="mb-5 list-inside list-disc space-y-4 px-2 pt-2 text-left text-xl font-medium italic tracking-wide"
         >
           <li>
             Titulaire d’un MASTER 2 Recherche, Sciences Sociales de la Justice,
@@ -27,7 +27,7 @@
           </li>
         </ul>
         <div
-          class="w-full h-full px-2 space-y-4 text-xl font-medium tracking-wide text-justify text-gray-800"
+          class="h-full w-full space-y-4 px-2 text-left text-xl font-medium tracking-wide text-gray-800"
         >
           <p class="indent-8">
             Juriste confirmée,
@@ -45,7 +45,7 @@
             l’ensemble des décisions judiciaires rendues.
           </p>
         </div>
-        <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
+        <div class="mx-auto my-8 w-1/4 border-t border-pink-cabinet"></div>
       </div>
     </div>
   </div>

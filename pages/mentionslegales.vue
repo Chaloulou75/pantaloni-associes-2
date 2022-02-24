@@ -22,8 +22,8 @@
           Raison sociale : Pantaloni &amp; Associés<br />
           Forme juridique : Association d’Avocats à Responsabilité
           Professionnelle Individuelle<br />
-          SIREN : <br />
-          Responsable de la publication : <br />
+          SIRET: 37876204100036<br />
+          Responsable de la publication : Marc Pantaloni <br />
           Adresse : 15 Rue Saussier Leroy 75017, Paris. France
         </p>
         <p>
