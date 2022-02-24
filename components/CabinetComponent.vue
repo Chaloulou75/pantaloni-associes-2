@@ -20,7 +20,9 @@
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Situé en plein cœur du 17ème arrondissement de Paris, entre le Nouveau
           Palais de Justice et l’Arc de Triomphe, le Cabinet
-          <span class="font-bold text-sky-800"> PANTALONI &amp; ASSOCIES </span>
+          <span class="font-bold text-gray-cabinet">
+            PANTALONI &amp; ASSOCIES
+          </span>
           conseille et assure la défense d’une clientèle constituée
           d’Institutionnels, de grandes sociétés, moyennes et petites
           entreprises ainsi que de particuliers.

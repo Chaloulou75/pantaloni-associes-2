@@ -33,7 +33,7 @@
           class="w-full h-full px-2 space-y-4 text-xl font-medium tracking-wide text-justify text-gray-800"
         >
           <p class="indent-8">
-            <span class="font-bold text-sky-800">Magali GREINER</span>,
+            <span class="font-bold text-gray-cabinet">Magali GREINER</span>,
             spécialisée en propriété intellectuelle et nouvelles technologies,
             dispose aujourd’hui d’une expertise particulière en droit des
             marques, dessins et modèles et en droit d’auteur.

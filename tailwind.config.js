@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         "gold-yellow": "#FFDF00",
         "pink-cabinet": "#D99694",
-        "gray-cabinet": "#ADADAD",
+        "gray-cabinet": "#947F7F",
       },
       backdropBlur: {
         xxs: "1px",

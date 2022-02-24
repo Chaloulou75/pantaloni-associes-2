@@ -31,9 +31,9 @@
           class="w-full h-full px-2 space-y-4 text-xl font-medium tracking-wide text-justify text-gray-800"
         >
           <p class="indent-8">
-            <span class="font-bold text-sky-800">Ghinwa RACHWAN</span> a exercé
-            au sein d'un cabinet à visée internationale dans les domaines du
-            Droit des Affaires, Assurances, Construction et Arbitrage
+            <span class="font-bold text-gray-cabinet">Ghinwa RACHWAN</span> a
+            exercé au sein d'un cabinet à visée internationale dans les domaines
+            du Droit des Affaires, Assurances, Construction et Arbitrage
             international.
           </p>
           <p class="indent-8">

@@ -36,7 +36,7 @@
           <p class="indent-8">
             Associé au sein du Cabinet RONSSERAY TOURNOIS & ASSOCIES, puis
             membre fondateur du Cabinet SELNET PANTALONI FISCHER,
-            <span class="font-bold text-sky-800">Marc PANTALONI</span>
+            <span class="font-bold text-gray-cabinet">Marc PANTALONI</span>
             a constitué une équipe dédiée au service de clients auxquels sont
             apportés tant la formation à raison de séminaires dédiés que le
             conseil, l’assistance pré-contentieuse et contentieuse qui leur est

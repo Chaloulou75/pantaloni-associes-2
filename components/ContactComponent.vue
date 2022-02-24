@@ -29,7 +29,7 @@
             Adresse:
           </p>
           <p
-            class="mt-4 ml-10 text-lg font-extralight text-pink-cabinet lg:text-2xl"
+            class="mt-4 ml-10 text-xl font-extralight text-pink-cabinet lg:text-2xl"
           >
             Pantaloni &amp; Associés | Avocats
           </p>
@@ -72,8 +72,8 @@
         class="flex justify-start w-full px-2 text-gray-100 lg:w-1/3 lg:justify-center"
       >
         <div class="text-lg tracking-wide">
-          <p>Le cabinet vous reçoit sur rendez-vous.</p>
-          <p>
+          <p class="ml-10 md:ml-0">Le cabinet vous reçoit sur rendez-vous.</p>
+          <p class="ml-10 md:ml-0">
             <span class="mr-2"> Horaires d'ouvertures: </span> de 9h30 à 17h30
           </p>
           <div class="flex items-center mt-2">

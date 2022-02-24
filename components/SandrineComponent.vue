@@ -31,8 +31,10 @@
         >
           <p class="indent-8">
             Juriste confirmée,
-            <span class="font-bold text-sky-800">Sandrine NIVET-ABDOUN</span> a
-            rejoint le Cabinet dès sa constitution.
+            <span class="font-bold text-gray-cabinet"
+              >Sandrine NIVET-ABDOUN</span
+            >
+            a rejoint le Cabinet dès sa constitution.
           </p>
           <p class="indent-8">
             Elle assure une fonction de support et de coordination tant à

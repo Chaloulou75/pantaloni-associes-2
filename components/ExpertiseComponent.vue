@@ -19,7 +19,9 @@
         <!-- <h3 class="py-2 text-2xl font-medium text-center">Un sous titre</h3> -->
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Depuis sa constitution, le Cabinet
-          <span class="font-bold text-sky-800"> PANTALONI &amp; ASSOCIES </span>
+          <span class="font-bold text-gray-cabinet">
+            PANTALONI &amp; ASSOCIES
+          </span>
           propose à ses clients un accompagnement
           <span
             class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
