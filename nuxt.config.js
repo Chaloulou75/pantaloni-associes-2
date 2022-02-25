@@ -71,7 +71,8 @@ export default {
   },
 
   sitemap: {
-    // options
+    // hostname: "https://www.pantaloni-associes.com",
+    gzip: true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

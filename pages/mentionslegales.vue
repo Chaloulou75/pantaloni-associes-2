@@ -17,7 +17,7 @@
         -Mentions légales-
       </h1>
       <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
-      <div class="mb-6 text-lg">
+      <div class="mb-6 text-lg text-justify">
         <p>
           Raison sociale : Pantaloni &amp; Associés<br />
           Forme juridique : Association d’Avocats à Responsabilité
@@ -41,8 +41,8 @@
         </p>
       </div>
       <div class="mb-6 text-base">
-        <h3 class="mb-6 font-semibold">Propriété intellectuelle</h3>
-        <div class="mb-6">
+        <h3 class="mb-6 text-xl font-semibold">Propriété intellectuelle</h3>
+        <div class="mb-6 text-lg text-justify">
           <p class="indent-8">
             Pantaloni &amp; Associés détient, se réserve et conserve tous les
             droits de propriété, notamment intellectuelle, y compris les droits
@@ -58,8 +58,8 @@
           </p>
         </div>
 
-        <h3 class="mb-6 font-semibold">Contenu</h3>
-        <div class="mb-6">
+        <h3 class="mb-6 text-xl font-semibold">Contenu</h3>
+        <div class="mb-6 text-lg text-justify">
           <p class="indent-8">
             Les informations fournies sur ce site par Pantaloni &amp; Associés
             ne sont données qu’à titre indicatif et n’ont pas de valeur
@@ -76,10 +76,10 @@
           </p>
         </div>
 
-        <h3 class="mb-6 font-semibold">
+        <h3 class="mb-6 text-xl font-semibold">
           Exclusion de garantie et de responsabilité
         </h3>
-        <div class="mb-6">
+        <div class="mb-6 text-lg text-justify">
           <p class="indent-8">
             L’utilisateur du site web www.pantaloni-associes.com reconnaît avoir
             pris connaissance des présentes conditions d’utilisation du site et
@@ -103,8 +103,8 @@
           </p>
         </div>
 
-        <h3 class="mb-6 font-semibold">Lien vers d’autres sites</h3>
-        <div class="mb-6">
+        <h3 class="mb-6 text-xl font-semibold">Lien vers d’autres sites</h3>
+        <div class="mb-6 text-lg text-justify">
           <p class="indent-8">
             Le site peut inclure des liens vers d’autres sites ou d’autres
             sources Internet. Dans la mesure où Pantaloni &amp; Associés ne peut
@@ -121,8 +121,8 @@
           </p>
         </div>
 
-        <h3 id="cookies" class="mb-6 font-semibold">Cookies</h3>
-        <div class="mb-6">
+        <h3 id="cookies" class="mb-6 text-xl font-semibold">Cookies</h3>
+        <div class="mb-6 text-lg text-justify">
           <p class="indent-8">
             Lors de vos visites, vous êtes informé qu’un témoin de connexion
             peut s’installer automatiquement sur votre logiciel de navigation.
