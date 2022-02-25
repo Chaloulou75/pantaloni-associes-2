@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {
         "gold-yellow": "#FFDF00",
-        "pink-cabinet": "#D99694",
+        "pink-cabinet": "#FF9999", //D99694
         "gray-cabinet": "#947F7F",
       },
       backdropBlur: {

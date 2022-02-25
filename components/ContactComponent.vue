@@ -74,7 +74,8 @@
         <div class="text-lg tracking-wide">
           <p class="ml-10 md:ml-0">Le cabinet vous reçoit sur rendez-vous.</p>
           <p class="ml-10 md:ml-0">
-            <span class="mr-2"> Horaires d'ouvertures: </span> de 9h30 à 17h30
+            <span class="mr-2"> Horaires d'ouvertures du secretariat: </span> de
+            9h30 à 17h30
           </p>
           <div class="flex items-center mt-2">
             <svg
