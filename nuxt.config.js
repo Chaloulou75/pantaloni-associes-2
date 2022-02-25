@@ -71,7 +71,7 @@ export default {
   },
 
   sitemap: {
-    // hostname: "https://www.pantaloni-associes.com",
+    hostname: "https://pantaloni-associes.netlify.app",
     gzip: true,
   },
 
