@@ -11,7 +11,7 @@
         <nuxt-img
           sizes="sm:95vw md:50vw lg:95vw"
           src="/img/cabinet.JPG"
-          alt="cabinet"
+          alt=" Cabinet PANTALONI & ASSOCIES"
           class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
       </div>

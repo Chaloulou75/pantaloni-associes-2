@@ -10,7 +10,7 @@
         <nuxt-img
           sizes="sm:95vw md:50vw lg:95vw"
           src="/img/GROUPE.JPG"
-          alt="groupe"
+          alt="Equipe Pantaloni"
           class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
       </div>

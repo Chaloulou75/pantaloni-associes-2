@@ -39,6 +39,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
     "nuxt-protected-mailto",
+    "@nuxtjs/sitemap", //tjrs last module
   ],
 
   image: {
@@ -67,6 +68,10 @@ export default {
       name: "Pantaloni & Associés",
       lang: "fr",
     },
+  },
+
+  sitemap: {
+    // options
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
