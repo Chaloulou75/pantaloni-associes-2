@@ -5,8 +5,10 @@
     >
       Expertise
     </h2>
-    <div class="items-center justify-between my-8 lg:flex lg:flex-row lg:px-6">
-      <div class="w-full lg:w-1/2">
+    <div
+      class="items-center justify-between my-8 lg:flex lg:flex-row lg:items-start lg:px-6"
+    >
+      <div class="w-full lg:my-36 lg:w-1/2">
         <nuxt-img
           sizes="sm:95vw md:50vw lg:95vw"
           src="/img/GROUPE.JPG"
@@ -16,7 +18,7 @@
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">
         <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
-        <!-- <h3 class="py-2 text-2xl font-medium text-center">Un sous titre</h3> -->
+        <!-- <li class="py-2 text-2xl font-medium text-center">Un sous titre</li> -->
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Depuis sa constitution, le Cabinet
           <span class="font-bold text-pink-cabinet">
@@ -51,10 +53,97 @@
         </p>
         <div class="py-6 mx-auto">
           <ul class="space-y-4 text-xl tracking-wide list-disc list-inside">
-            <li class="font-medium">Droit pénal</li>
-            <li class="font-medium">Droit de la construction</li>
-            <li class="font-medium">Droit de la responsabilité</li>
-            <li class="font-medium">Droit des assurances</li>
+            <li
+              class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
+            >
+              Droit de la responsabilité civile
+            </li>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Le Cabinet
+              <span class="font-bold text-pink-cabinet"
+                >PANTALONI & ASSOCIES</span
+              >
+              intervient en
+              <span class="font-semibold">
+                droit de la responsabilité civile des officiers
+                ministériels</span
+              >, des <span class="font-semibold">agents immobiliers</span> et
+              des <span class="font-semibold">experts judiciaires</span>.
+            </p>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Par ailleurs, il a développé une activité en matière d’<span
+                class="font-semibold"
+                >accidents de la circulation</span
+              >
+              (en application de la Loi Badinter de 1985), ou encore dans le
+              cadre d’<span class="font-semibold">expertises judiciaires</span>,
+              en cas de sinistre de dégât des eaux, de désordre, ou de malfaçon.
+            </p>
+            <li
+              class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
+            >
+              Droit de la construction
+            </li>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Le Cabinet
+              <span class="font-bold text-pink-cabinet"
+                >PANTALONI & ASSOCIES</span
+              >assiste ses clients dans le traitement de l’ensemble des
+              difficultés survenues en cours de
+              <span class="font-semibold">chantier</span> (sinistre, abandon de
+              chantier, désordres, malfaçons, non-conformité, litige entreprise,
+              sous-traitant).
+            </p>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Il assure dans ce cadre le suivi des expertises judiciaires et du
+              contentieux jusqu’au stade de l’exécution.
+            </p>
+            <li
+              class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
+            >
+              Droit pénal
+            </li>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Outre le <span class="font-semibold">droit pénal général</span>,
+              le Cabinet
+              <span class="font-bold text-pink-cabinet"
+                >PANTALONI & ASSOCIES</span
+              >
+              intervient en matière de
+              <span class="font-semibold"
+                >droit pénal économique et des affaires</span
+              >, ainsi qu’en
+              <span class="font-semibold">droit pénal du travail</span>.
+            </p>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Ce faisant, il assiste tant les entreprises que les particuliers,
+              qu’ils soient <span class="font-semibold">prévenus</span> ou
+              <span class="font-semibold">parties civiles</span>, à tous les
+              stades de la procédure.
+            </p>
+            <li
+              class="font-semibold underline decoration-pink-cabinet decoration-2 underline-offset-2"
+            >
+              Droit des assurances
+            </li>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Le Cabinet
+              <span class="font-bold text-pink-cabinet"
+                >PANTALONI & ASSOCIES</span
+              >
+              intervient dans la gestion des litiges susceptibles de naître d’un
+              <span class="font-semibold">contrat d’assurance</span> (assurance
+              responsabilité, assurance construction, assurance voiture).
+            </p>
+            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+              Il met en jeu les
+              <span class="font-semibold">garanties légales</span> : garantie de
+              parfait achèvement, garantie décennale, garantie biennale ainsi
+              que les
+              <span class="font-semibold">responsabilités de droit commun</span>
+              : contractuelle et délictuelle outre les responsabilités
+              spécifiques (fabricant, vendeur, fournisseur).
+            </p>
           </ul>
         </div>
         <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
