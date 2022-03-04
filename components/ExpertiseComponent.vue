@@ -16,12 +16,12 @@
           class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
       </div>
-      <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">
+      <div class="w-full px-4 py-4 text-gray-800 lg:w-1/2 lg:px-8">
         <div class="w-1/4 mx-auto my-8 border-t border-pink-cabinet"></div>
         <!-- <li class="py-2 text-2xl font-medium text-center">Un sous titre</li> -->
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Depuis sa constitution, le Cabinet
-          <span class="font-bold text-pink-cabinet">
+          <span class="font-semibold text-pink-cabinet">
             PANTALONI &amp; ASSOCIES
           </span>
           propose à ses clients un accompagnement
@@ -60,7 +60,7 @@
             </li>
             <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Le Cabinet
-              <span class="font-bold text-pink-cabinet"
+              <span class="font-semibold text-pink-cabinet"
                 >PANTALONI & ASSOCIES</span
               >
               intervient en
@@ -86,7 +86,7 @@
             </li>
             <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Le Cabinet
-              <span class="font-bold text-pink-cabinet"
+              <span class="font-semibold text-pink-cabinet"
                 >PANTALONI & ASSOCIES</span
               >
               assiste ses clients dans le traitement de l’ensemble des
@@ -107,7 +107,7 @@
             <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Outre le <span class="font-semibold">droit pénal général</span>,
               le Cabinet
-              <span class="font-bold text-pink-cabinet"
+              <span class="font-semibold text-pink-cabinet"
                 >PANTALONI & ASSOCIES</span
               >
               intervient en matière de
@@ -129,7 +129,7 @@
             </li>
             <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Le Cabinet
-              <span class="font-bold text-pink-cabinet"
+              <span class="font-semibold text-pink-cabinet"
                 >PANTALONI & ASSOCIES</span
               >
               intervient dans la gestion des litiges susceptibles de naître d’un
@@ -138,11 +138,11 @@
             </p>
             <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Il met en jeu les
-              <span class="font-semibold">garanties légales</span> : garantie de
+              <span class="font-semibold">garanties légales</span>: garantie de
               parfait achèvement, garantie décennale, garantie biennale ainsi
               que les
-              <span class="font-semibold">responsabilités de droit commun</span>
-              : contractuelle et délictuelle outre les responsabilités
+              <span class="font-semibold">responsabilités de droit commun</span
+              >: contractuelle et délictuelle outre les responsabilités
               spécifiques (fabricant, vendeur, fournisseur).
             </p>
           </ul>
