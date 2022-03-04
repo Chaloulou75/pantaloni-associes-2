@@ -58,7 +58,7 @@
             >
               Droit de la responsabilité civile
             </li>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Le Cabinet
               <span class="font-bold text-pink-cabinet"
                 >PANTALONI & ASSOCIES</span
@@ -70,7 +70,7 @@
               >, des <span class="font-semibold">agents immobiliers</span> et
               des <span class="font-semibold">experts judiciaires</span>.
             </p>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Par ailleurs, il a développé une activité en matière d’<span
                 class="font-semibold"
                 >accidents de la circulation</span
@@ -84,17 +84,18 @@
             >
               Droit de la construction
             </li>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Le Cabinet
               <span class="font-bold text-pink-cabinet"
                 >PANTALONI & ASSOCIES</span
-              >assiste ses clients dans le traitement de l’ensemble des
+              >
+              assiste ses clients dans le traitement de l’ensemble des
               difficultés survenues en cours de
               <span class="font-semibold">chantier</span> (sinistre, abandon de
               chantier, désordres, malfaçons, non-conformité, litige entreprise,
               sous-traitant).
             </p>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Il assure dans ce cadre le suivi des expertises judiciaires et du
               contentieux jusqu’au stade de l’exécution.
             </p>
@@ -103,7 +104,7 @@
             >
               Droit pénal
             </li>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Outre le <span class="font-semibold">droit pénal général</span>,
               le Cabinet
               <span class="font-bold text-pink-cabinet"
@@ -115,7 +116,7 @@
               >, ainsi qu’en
               <span class="font-semibold">droit pénal du travail</span>.
             </p>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Ce faisant, il assiste tant les entreprises que les particuliers,
               qu’ils soient <span class="font-semibold">prévenus</span> ou
               <span class="font-semibold">parties civiles</span>, à tous les
@@ -126,7 +127,7 @@
             >
               Droit des assurances
             </li>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Le Cabinet
               <span class="font-bold text-pink-cabinet"
                 >PANTALONI & ASSOCIES</span
@@ -135,7 +136,7 @@
               <span class="font-semibold">contrat d’assurance</span> (assurance
               responsabilité, assurance construction, assurance voiture).
             </p>
-            <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
+            <p class="mx-auto text-xl tracking-wide text-justify indent-8">
               Il met en jeu les
               <span class="font-semibold">garanties légales</span> : garantie de
               parfait achèvement, garantie décennale, garantie biennale ainsi
