@@ -6,13 +6,13 @@
       Expertise
     </h2>
     <div
-      class="items-center justify-between my-8 lg:flex lg:flex-row lg:items-start lg:px-6"
+      class="relative items-center justify-between h-full my-8 lg:flex lg:flex-row lg:items-start lg:px-6"
     >
-      <div class="w-full lg:my-36 lg:w-1/2">
+      <div class="w-full lg:sticky lg:top-20 lg:my-36 lg:w-1/2">
         <nuxt-img
           sizes="sm:95vw md:50vw lg:95vw"
           src="/img/GROUPE.JPG"
-          alt="Equipe Pantaloni"
+          alt="Equipe Pantaloni & associés"
           class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
         />
       </div>
