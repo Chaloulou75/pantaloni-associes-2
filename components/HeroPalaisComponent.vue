@@ -40,8 +40,31 @@
           </li>
           <li
             class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-pink-cabinet decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
+            @mouseover="showDropdown = true"
+            @mouseleave="showDropdown = false"
           >
             <a href="#equipe">L'equipe</a>
+            <transition name="fade">
+              <div
+                v-if="showDropdown"
+                class="absolute z-30 hidden h-auto text-black rounded-lg w-52 bg-gray-50 lg:left-8 lg:-top-28 lg:block"
+              >
+                <ul class="px-3 pt-2 pb-1 text-xs divide-y divide-gray-200">
+                  <li class="py-1 hover:font-semibold">
+                    <a href="#MarcPantaloni">Marc Pantaloni</a>
+                  </li>
+                  <li class="py-1 hover:font-semibold">
+                    <a href="#MagaliGreiner">Magali Greiner</a>
+                  </li>
+                  <li class="py-1 hover:font-semibold">
+                    <a href="#GhinwaRachwan">Ghinwa Rachwan</a>
+                  </li>
+                  <li class="py-1 hover:font-semibold">
+                    <a href="#SandrineNivetAbdoun">Sandrine Nivet-Abdoun</a>
+                  </li>
+                </ul>
+              </div>
+            </transition>
           </li>
           <li
             class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-pink-cabinet decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
@@ -61,5 +84,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showDropdown: false,
+    };
+  },
+};
 </script>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+</style>
