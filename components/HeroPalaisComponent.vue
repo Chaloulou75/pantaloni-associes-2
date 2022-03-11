@@ -47,7 +47,7 @@
             <transition name="fade">
               <div
                 v-if="showDropdown"
-                class="absolute z-30 hidden h-auto text-black rounded-lg w-52 bg-gray-50 lg:left-8 lg:-top-28 lg:block"
+                class="absolute z-30 hidden h-auto text-black rounded-lg w-52 bg-gray-50 lg:left-5 lg:-top-32 lg:block"
               >
                 <ul class="px-3 pt-2 pb-1 text-xs divide-y divide-gray-200">
                   <li class="py-1 hover:font-semibold">
