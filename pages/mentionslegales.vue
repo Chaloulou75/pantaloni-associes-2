@@ -24,7 +24,8 @@
           Professionnelle Individuelle<br />
           SIRET: 37876204100036<br />
           Responsable de la publication : Marc Pantaloni <br />
-          Adresse : 15 Rue Saussier Leroy 75017, Paris. France
+          Adresse : 15 Rue Saussier Leroy 75017, Paris. France<br />
+          Developpeur Web : Charles Jeandey
         </p>
         <p>
           Conformément à la loi n°2004-575 du 21 juin 2004 pour la confiance
