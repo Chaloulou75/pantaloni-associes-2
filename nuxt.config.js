@@ -15,7 +15,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Cabinet d'avocats à Paris. Droit de la construction. Droit de la responsabilité. Droit des assurances",
+          "Cabinet d'avocats à Paris. Droit de la construction. Droit de la responsabilité. Droit des assurances. Marc Pantaloni et Associés",
       },
       { name: "format-detection", content: "telephone=no" },
     ],
