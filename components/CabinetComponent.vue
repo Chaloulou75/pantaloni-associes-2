@@ -1,3 +1,4 @@
+<script setup></script>
 <template>
   <div class="min-h-full" id="cabinet">
     <h2
@@ -8,11 +9,12 @@
 
     <div class="items-center justify-between py-8 mt-4 lg:flex lg:px-6">
       <div class="relative w-full mx-auto lg:w-1/2">
-        <nuxt-img
+        <NuxtImg
+          :placeholder="[50, 25, 75, 5]"
           sizes="sm:95vw md:50vw lg:95vw"
           src="/img/cabinet.JPG"
           alt=" Cabinet PANTALONI & ASSOCIES"
-          class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
+          class="mx-auto rounded-sm shadow shadow-gray-500 md:rounded"
         />
       </div>
       <div class="w-full px-4 py-4 lg:w-1/2 lg:px-8">
@@ -60,6 +62,3 @@
     </div>
   </div>
 </template>
-<script>
-export default {};
-</script>

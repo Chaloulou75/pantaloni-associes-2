@@ -1,11 +1,4 @@
-export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  // ssr: false,
-
-  // Target: https://go.nuxtjs.dev/config-target
-  target: "static",
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
+export default defineNuxtConfig({
   head: {
     title: "Pantaloni & Associés | Avocats à la Cour",
     meta: [
@@ -22,25 +15,22 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/css/tailwind.css"],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "@/plugins/in-viewport", ssr: false }],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxt/postcss8", "@nuxt/image", "@nuxtjs/google-fonts"],
+  buildModules: ["@nuxtjs/google-fonts"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/pwa
-    "@nuxtjs/pwa",
-    "nuxt-protected-mailto",
-    "@nuxtjs/sitemap", //tjrs last module
-  ],
+  modules: ["@vueuse/nuxt", "@nuxt/image", "@vite-pwa/nuxt", "@nuxtjs/sitemap"],
 
   image: {
     screens: {
@@ -62,14 +52,6 @@ export default {
     display: "swap",
   },
 
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      name: "Pantaloni & Associés",
-      lang: "fr",
-    },
-  },
-
   sitemap: {
     hostname: "https://www.pantaloni-associes.com",
     gzip: true,
@@ -77,12 +59,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-      },
-    },
     html: {
       minify: {
         collapseBooleanAttributes: true,
@@ -98,4 +74,4 @@ export default {
       },
     },
   },
-};
+});

@@ -1,3 +1,14 @@
+<script setup>
+import ContactComponent from "~/components/ContactComponent.vue";
+import FooterComponent from "~/components/FooterComponent.vue";
+import HeroPalaisComponent from "~/components/HeroPalaisComponent.vue";
+import ExpertiseComponent from "~/components/ExpertiseComponent.vue";
+import CabinetComponent from "~/components/CabinetComponent.vue";
+import EquipeComponent from "~/components/EquipeComponent.vue";
+import VisibleComponent from "~/components/VisibleComponent.vue";
+import ScrollLinkComponent from "~/components/ScrollLinkComponent.vue";
+</script>
+
 <template>
   <div class="relative min-h-screen bg-gray-100 scroll-smooth font-cormorant">
     <HeroPalaisComponent />
@@ -39,27 +50,3 @@
     </VisibleComponent>
   </div>
 </template>
-
-<script>
-import ContactComponent from "~/components/ContactComponent.vue";
-import FooterComponent from "~/components/FooterComponent.vue";
-import HeroPalaisComponent from "~/components/HeroPalaisComponent.vue";
-import ExpertiseComponent from "~/components/ExpertiseComponent.vue";
-import CabinetComponent from "~/components/CabinetComponent.vue";
-import EquipeComponent from "~/components/EquipeComponent.vue";
-import VisibleComponent from "~/components/VisibleComponent.vue";
-import ScrollLinkComponent from "~/components/ScrollLinkComponent.vue";
-
-export default {
-  components: {
-    ContactComponent,
-    FooterComponent,
-    HeroPalaisComponent,
-    ExpertiseComponent,
-    CabinetComponent,
-    EquipeComponent,
-    VisibleComponent,
-    ScrollLinkComponent,
-  },
-};
-</script>

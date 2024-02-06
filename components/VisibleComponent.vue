@@ -1,3 +1,21 @@
+<script setup>
+import { ref } from "vue";
+import { useElementVisibility } from "@vueuse/core";
+const { whenHidden } = defineProps(["whenHidden"]);
+const shouldDisplay = ref(false);
+
+const handleScroll = () => {
+  shouldDisplay = useElementVisibility(whenHidden);
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll, { passive: true });
+
+  onBeforeUnmount(() => {
+    window.removeEventListener("scroll", handleScroll);
+  });
+});
+</script>
 <template>
   <transition name="fade">
     <div v-show="shouldDisplay">
@@ -5,30 +23,6 @@
     </div>
   </transition>
 </template>
-
-<script>
-import inViewport from "in-viewport";
-
-export default {
-  props: ["when-hidden"],
-  data() {
-    return {
-      shouldDisplay: false,
-    };
-  },
-  mounted() {
-    window.addEventListener(
-      "scroll",
-      () => {
-        this.shouldDisplay = !inViewport(
-          document.querySelector(this.whenHidden)
-        );
-      },
-      { passive: true }
-    );
-  },
-};
-</script>
 
 <style>
 .fade-enter-active,

@@ -1,3 +1,9 @@
+<script setup>
+import MarcComponent from "./MarcComponent.vue";
+import MagaliComponent from "./MagaliComponent.vue";
+import GhinwaComponent from "./GhinwaComponent.vue";
+import SandrineComponent from "./SandrineComponent.vue";
+</script>
 <template>
   <div class="min-h-full" id="equipe">
     <h2
@@ -11,17 +17,3 @@
     <SandrineComponent />
   </div>
 </template>
-<script>
-import MarcComponent from "./MarcComponent.vue";
-import MagaliComponent from "./MagaliComponent.vue";
-import GhinwaComponent from "./GhinwaComponent.vue";
-import SandrineComponent from "./SandrineComponent.vue";
-export default {
-  components: {
-    MarcComponent,
-    MagaliComponent,
-    GhinwaComponent,
-    SandrineComponent,
-  },
-};
-</script>

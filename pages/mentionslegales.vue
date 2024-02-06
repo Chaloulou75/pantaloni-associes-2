@@ -1,3 +1,8 @@
+<script setup>
+import FooterComponent from "~/components/FooterComponent.vue";
+import VisibleComponent from "~/components/VisibleComponent.vue";
+import ScrollLinkComponent from "~/components/ScrollLinkComponent.vue";
+</script>
 <template>
   <div class="bg-gray-100 font-cormorant">
     <nav
@@ -209,16 +214,3 @@
     <FooterComponent />
   </div>
 </template>
-
-<script>
-import FooterComponent from "~/components/FooterComponent.vue";
-import VisibleComponent from "~/components/VisibleComponent.vue";
-import ScrollLinkComponent from "~/components/ScrollLinkComponent.vue";
-export default {
-  components: {
-    FooterComponent,
-    VisibleComponent,
-    ScrollLinkComponent,
-  },
-};
-</script>
