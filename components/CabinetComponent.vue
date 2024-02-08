@@ -12,7 +12,7 @@
         <NuxtImg
           :placeholder="[50, 25, 75, 5]"
           sizes="sm:95vw md:50vw lg:95vw"
-          src="/img/cabinet.JPG"
+          src="/cabinet.JPG"
           alt=" Cabinet PANTALONI & ASSOCIES"
           class="mx-auto rounded-sm shadow shadow-gray-500 md:rounded"
         />
