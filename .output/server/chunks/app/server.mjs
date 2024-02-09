@@ -630,7 +630,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_nuxt/index-SYRs_HH8.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-cSCXZqph.mjs').then((m) => m.default || m)
   },
   {
     name: "mentionslegales",

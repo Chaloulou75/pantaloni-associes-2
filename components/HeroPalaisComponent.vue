@@ -1,34 +1,30 @@
-<script setup>
-const showDropdown = ref(false);
-</script>
-<template>
-  <div class="relative w-full min-h-screen" id="herotop">
-    <NuxtImg
-      sizes="sm:100vw"
-      src="/palais3.jpg"
-      alt="palais"
-      class="absolute inset-0 object-cover w-full h-full opacity-50"
-    />
-    <div
-      class="absolute inset-0 bg-pink-cabinet/50 mix-blend-overlay backdrop-blur-xxs"
-    ></div>
+<script setup></script>
 
+<template>
+  <div class="relative w-full h-screen bg-white" id="herotop">
     <!-- Navigation -->
     <div
       class="flex flex-col items-center justify-between min-h-screen mx-auto"
     >
-      <div class="relative mt-auto mb-20 space-y-8">
+      <div class="relative mt-auto mb-4 space-y-2 md:mb-20">
+        <NuxtImg
+          sizes=""
+          height="200"
+          src="/logo.jpg"
+          alt="logo"
+          class="w-auto h-auto mx-auto"
+        />
         <h1
-          class="text-4xl font-normal text-center underline transition duration-200 animate-fade-in-down decoration-pink-cabinet decoration-2 underline-offset-8 md:text-6xl lg:text-8xl"
+          class="text-2xl font-thin text-center uppercase transition duration-200 animate-fade-in-down md:text-3xl lg:text-4xl"
         >
-          <span class="text-transparent bg-black bg-clip-text">
-            Pantaloni &amp; Associés
-          </span>
+          <span class="font-bold">P</span>antaloni
+          <span class="font-bold">G</span>reiner
+          <span class="font-bold">R</span>achwan
         </h1>
         <h2
-          class="text-3xl font-medium text-center text-black underline transition duration-200 animate-fade-in-down-delai decoration-pink-cabinet decoration-2 underline-offset-8 md:text-4xl lg:text-6xl"
+          class="text-lg font-thin text-center text-gray-700 uppercase transition duration-200 animate-fade-in-down-delai md:text-xl lg:text-2xl"
         >
-          - Avocats à la Cour -
+          Avocats
         </h2>
       </div>
       <!---menu -->
@@ -37,47 +33,47 @@ const showDropdown = ref(false);
           class="flex flex-col justify-around space-y-3 text-lg font-medium uppercase animate-fade-in-down-delai-more md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
-            class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-pink-cabinet decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
+            class="px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
           >
-            <a href="#cabinet">Le cabinet</a>
+            <NuxtLink to="#cabinet">Le cabinet</NuxtLink>
           </li>
+
           <li
-            class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-pink-cabinet decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
-            @mouseover="showDropdown = true"
-            @mouseleave="showDropdown = false"
+            class="hs-tooltip relative inline-block cursor-pointer px-3 tracking-wide text-black decoration-red-500 decoration-2 transition duration-300 ease-in-out [--trigger:hover] hover:translate-x-2 hover:underline hover:underline-offset-4"
           >
-            <a href="#equipe">L'equipe</a>
-            <transition name="fade">
-              <div
-                v-if="showDropdown"
-                class="absolute z-30 hidden h-auto text-black rounded-lg w-52 bg-gray-50 lg:-top-32 lg:left-5 lg:block"
+            <NuxtLink to="#equipe">L'equipe</NuxtLink>
+            <div
+              class="absolute z-10 invisible w-full h-auto px-4 py-3 font-medium text-black transition-opacity rounded shadow-sm opacity-0 hs-tooltip-content bg-gray-50 hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
+            >
+              <ul
+                class="w-auto px-3 space-y-2 text-xs divide-y divide-gray-200"
               >
-                <ul class="px-3 pt-2 pb-1 text-xs divide-y divide-gray-200">
-                  <li class="py-1 hover:font-semibold">
-                    <a href="#MarcPantaloni">Marc Pantaloni</a>
-                  </li>
-                  <li class="py-1 hover:font-semibold">
-                    <a href="#MagaliGreiner">Magali Greiner</a>
-                  </li>
-                  <li class="py-1 hover:font-semibold">
-                    <a href="#GhinwaRachwan">Ghinwa Rachwan</a>
-                  </li>
-                  <li class="py-1 hover:font-semibold">
-                    <a href="#SandrineNivetAbdoun">Sandrine Nivet-Abdoun</a>
-                  </li>
-                </ul>
-              </div>
-            </transition>
+                <li class="py-1 whitespace-nowrap hover:font-semibold">
+                  <NuxtLink to="#MarcPantaloni">Marc Pantaloni</NuxtLink>
+                </li>
+                <li class="py-1 whitespace-nowrap hover:font-semibold">
+                  <NuxtLink to="#MagaliGreiner">Magali Greiner</NuxtLink>
+                </li>
+                <li class="py-1 whitespace-nowrap hover:font-semibold">
+                  <NuxtLink to="#GhinwaRachwan">Ghinwa Rachwan</NuxtLink>
+                </li>
+                <li class="py-1 whitespace-nowrap hover:font-semibold">
+                  <NuxtLink to="#SandrineNivetAbdoun"
+                    >Sandrine Nivet-Abdoun</NuxtLink
+                  >
+                </li>
+              </ul>
+            </div>
           </li>
           <li
-            class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-pink-cabinet decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
+            class="px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
           >
-            <a href="#expertise">Expertise</a>
+            <NuxtLink to="#expertise">Expertise</NuxtLink>
           </li>
           <li
-            class="relative px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-pink-cabinet decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
+            class="px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
           >
-            <a href="#contact">Contact</a>
+            <NuxtLink to="#contact">Contact</NuxtLink>
           </li>
         </ul>
       </div>
@@ -85,13 +81,3 @@ const showDropdown = ref(false);
     </div>
   </div>
 </template>
-
-<style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
-</style>

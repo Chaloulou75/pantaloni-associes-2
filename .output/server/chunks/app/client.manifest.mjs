@@ -6,7 +6,7 @@ const client_manifest = {
     "file": "ScrollLinkComponent.OVOYTu2V.css",
     "src": "_ScrollLinkComponent.!~{009}~.js"
   },
-  "_ScrollLinkComponent.eaTIaaW6.js": {
+  "_ScrollLinkComponent.7cMSABbp.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -14,9 +14,9 @@ const client_manifest = {
     "css": [
       "ScrollLinkComponent.OVOYTu2V.css"
     ],
-    "file": "ScrollLinkComponent.eaTIaaW6.js",
+    "file": "ScrollLinkComponent.7cMSABbp.js",
     "imports": [
-      "_nuxt-link.w-1rVh7d.js",
+      "_nuxt-link.G49twqIW.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -26,22 +26,22 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "_nuxt-link.w-1rVh7d.js": {
+  "_nuxt-link.G49twqIW.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.w-1rVh7d.js",
+    "file": "nuxt-link.G49twqIW.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_vue.f36acd1f.Y4-GLUv5.js": {
+  "_vue.f36acd1f.cflf4U5L.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.Y4-GLUv5.js",
+    "file": "vue.f36acd1f.cflf4U5L.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -52,10 +52,10 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.LLCJqjOI.js",
+    "file": "error-404.Hp0kZ-f6.js",
     "imports": [
-      "_nuxt-link.w-1rVh7d.js",
-      "_vue.f36acd1f.Y4-GLUv5.js",
+      "_nuxt-link.G49twqIW.js",
+      "_vue.f36acd1f.cflf4U5L.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -73,9 +73,9 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.Z9FGRfrR.js",
+    "file": "error-500.hY1guk2y.js",
     "imports": [
-      "_vue.f36acd1f.Y4-GLUv5.js",
+      "_vue.f36acd1f.cflf4U5L.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -97,7 +97,7 @@ const client_manifest = {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.anuxTONR.js",
+    "file": "entry.4BxR0Nqq.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
@@ -119,12 +119,12 @@ const client_manifest = {
     "css": [
       "index.HqfbOdUl.css"
     ],
-    "file": "index.kF3VElvI.js",
+    "file": "index.PG10z-yZ.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_ScrollLinkComponent.eaTIaaW6.js",
-      "_vue.f36acd1f.Y4-GLUv5.js",
-      "_nuxt-link.w-1rVh7d.js"
+      "_ScrollLinkComponent.7cMSABbp.js",
+      "_vue.f36acd1f.cflf4U5L.js",
+      "_nuxt-link.G49twqIW.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/index.vue"
@@ -140,10 +140,10 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "mentionslegales.zB6_0Qdh.js",
+    "file": "mentionslegales.0OPziXlT.js",
     "imports": [
-      "_nuxt-link.w-1rVh7d.js",
-      "_ScrollLinkComponent.eaTIaaW6.js",
+      "_nuxt-link.G49twqIW.js",
+      "_ScrollLinkComponent.7cMSABbp.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,

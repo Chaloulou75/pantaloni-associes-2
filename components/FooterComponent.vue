@@ -5,8 +5,8 @@
       class="flex flex-col items-center justify-between w-full px-3 py-5 m-auto space-y-2 text-sm text-gray-200 md:flex-row lg:text-base"
     >
       <div>
-        &copy; Pantaloni & Associés {{ new Date().getFullYear() }}. Tous droits
-        réservés.
+        &copy; Pantaloni Greiner Rachwan {{ new Date().getFullYear() }}. Tous
+        droits réservés.
       </div>
 
       <div class="flex justify-between">

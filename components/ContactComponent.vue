@@ -30,9 +30,9 @@
             Adresse:
           </p>
           <p
-            class="mt-4 ml-10 text-xl font-extralight text-pink-cabinet lg:text-2xl"
+            class="mt-4 ml-10 text-xl text-red-400 font-extralight lg:text-2xl"
           >
-            Pantaloni &amp; Associés | Avocats
+            PANTALONI GREINER RACHWAN | AARPI
           </p>
           <p class="ml-10 text-lg">15 Rue Saussier Leroy</p>
           <p class="ml-10 text-lg">75017 Paris</p>
@@ -62,7 +62,7 @@
               ></path>
             </svg>
             <span
-              class="tracking-wide underline transition duration-200 ease-in-out decoration-pink-cabinet underline-offset-4 hover:translate-x-1"
+              class="tracking-wide underline transition duration-200 ease-in-out decoration-red-500 underline-offset-4 hover:translate-x-1"
               >info@pantaloni-avocats.com</span
             >
           </p>

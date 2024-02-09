@@ -32,6 +32,8 @@ export default defineNuxtConfig({
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@vueuse/nuxt", "@nuxt/image", "@vite-pwa/nuxt", "@nuxtjs/sitemap"],
 
+  plugins: ["~/plugins/preline.client.ts"],
+
   image: {
     screens: {
       xs: 320,

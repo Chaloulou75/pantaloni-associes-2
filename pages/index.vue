@@ -5,31 +5,30 @@ import HeroPalaisComponent from "~/components/HeroPalaisComponent.vue";
 import ExpertiseComponent from "~/components/ExpertiseComponent.vue";
 import CabinetComponent from "~/components/CabinetComponent.vue";
 import EquipeComponent from "~/components/EquipeComponent.vue";
-import VisibleComponent from "~/components/VisibleComponent.vue";
 import ScrollLinkComponent from "~/components/ScrollLinkComponent.vue";
+import { ref } from "vue";
+import { useElementVisibility } from "@vueuse/core";
+
+const target = ref(null);
+const targetIsVisible = useElementVisibility(target);
 </script>
 
 <template>
-  <div class="relative min-h-screen bg-gray-100 scroll-smooth font-cormorant">
-    <HeroPalaisComponent />
+  <div
+    class="relative min-h-screen text-black bg-white scroll-smooth font-cormorant"
+  >
+    <HeroPalaisComponent ref="target" />
     <CabinetComponent />
     <EquipeComponent />
     <ExpertiseComponent />
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#4b5563"
-        fill-opacity="1"
-        d="M0,288L120,266.7C240,245,480,203,720,192C960,181,1200,203,1320,213.3L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-      ></path>
-    </svg>
     <ContactComponent />
     <FooterComponent />
-    <VisibleComponent when-hidden="#herotop">
+    <div v-show="!targetIsVisible">
       <div class="fixed bottom-0 right-0 z-40 mb-16 mr-6">
         <div
           class="p-2 bg-gray-400 border border-white rounded-full opacity-75 hover:opacity-100"
         >
-          <ScrollLinkComponent href="#herotop" class="text-gray-800">
+          <ScrollLinkComponent href="#herotop" class="text-black">
             <svg
               class="w-6 h-6"
               fill="none"
@@ -47,6 +46,6 @@ import ScrollLinkComponent from "~/components/ScrollLinkComponent.vue";
           </ScrollLinkComponent>
         </div>
       </div>
-    </VisibleComponent>
+    </div>
   </div>
 </template>

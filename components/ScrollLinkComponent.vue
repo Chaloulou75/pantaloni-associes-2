@@ -6,7 +6,7 @@ const scroll = () => {
 };
 </script>
 <template>
-  <a :href="href" @click.prevent="scroll">
+  <NuxtLink :to="href" @click.prevent="scroll">
     <slot></slot>
-  </a>
+  </NuxtLink>
 </template>

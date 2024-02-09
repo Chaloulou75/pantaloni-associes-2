@@ -1,24 +1,7 @@
-<script setup>
-import { ref } from "vue";
-import { useElementVisibility } from "@vueuse/core";
-const { whenHidden } = defineProps(["whenHidden"]);
-const shouldDisplay = ref(false);
-
-const handleScroll = () => {
-  shouldDisplay = useElementVisibility(whenHidden);
-};
-
-onMounted(() => {
-  window.addEventListener("scroll", handleScroll, { passive: true });
-
-  onBeforeUnmount(() => {
-    window.removeEventListener("scroll", handleScroll);
-  });
-});
-</script>
+<script setup></script>
 <template>
   <transition name="fade">
-    <div v-show="shouldDisplay">
+    <div>
       <slot></slot>
     </div>
   </transition>
