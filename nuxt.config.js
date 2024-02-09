@@ -53,11 +53,9 @@ export default defineNuxtConfig({
   },
 
   googleFonts: {
-    preload: true,
     families: {
       "Cormorant+Garamond": true,
     },
-    display: "swap",
   },
 
   sitemap: {

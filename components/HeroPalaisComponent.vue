@@ -43,10 +43,10 @@
           >
             <NuxtLink to="#equipe">L'equipe</NuxtLink>
             <div
-              class="absolute z-10 invisible w-full h-auto px-4 py-3 font-medium text-black transition-opacity rounded shadow-sm opacity-0 hs-tooltip-content bg-gray-50 hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
+              class="absolute z-10 invisible inline-block w-full h-auto min-w-full px-4 py-3 font-medium text-black transition-opacity rounded shadow-sm opacity-0 hs-tooltip-content bg-gray-50 hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
             >
               <ul
-                class="w-auto px-3 space-y-2 text-xs divide-y divide-gray-200"
+                class="w-full px-3 space-y-2 text-xs divide-y divide-gray-200"
               >
                 <li class="py-1 whitespace-nowrap hover:font-semibold">
                   <NuxtLink to="#MarcPantaloni">Marc Pantaloni</NuxtLink>
