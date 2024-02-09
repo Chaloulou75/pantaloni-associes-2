@@ -28,7 +28,7 @@ const targetIsVisible = useElementVisibility(target);
         <div
           class="p-2 bg-gray-400 border border-white rounded-full opacity-75 hover:opacity-100"
         >
-          <ScrollLinkComponent href="#herotop" class="text-black">
+          <ScrollLinkComponent href="#top" class="text-black">
             <svg
               class="w-6 h-6"
               fill="none"

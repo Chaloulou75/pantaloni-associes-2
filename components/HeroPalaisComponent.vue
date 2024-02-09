@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="relative w-full h-screen bg-white" id="herotop">
+  <div class="relative w-full h-screen bg-white" id="top">
     <!-- Navigation -->
     <div
       class="flex flex-col items-center justify-between min-h-screen mx-auto"
@@ -33,45 +33,49 @@
           class="flex flex-col justify-around space-y-3 text-lg font-medium uppercase animate-fade-in-down-delai-more md:flex-row md:space-x-8 md:space-y-0 lg:text-2xl"
         >
           <li
-            class="px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
+            class="px-3 tracking-wide text-black transition duration-200 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:underline hover:underline-offset-4"
           >
             <NuxtLink to="#cabinet">Le cabinet</NuxtLink>
           </li>
 
           <li
-            class="hs-tooltip relative inline-block cursor-pointer px-3 tracking-wide text-black decoration-red-500 decoration-2 transition duration-300 ease-in-out [--trigger:hover] hover:translate-x-2 hover:underline hover:underline-offset-4"
+            class="hs-tooltip relative inline-block cursor-pointer [--trigger:hover]"
           >
-            <NuxtLink to="#equipe">L'equipe</NuxtLink>
-            <div
-              class="absolute z-10 invisible inline-block w-full h-auto min-w-full px-4 py-3 font-medium text-black transition-opacity rounded shadow-sm opacity-0 hs-tooltip-content bg-gray-50 hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
-            >
-              <ul
-                class="w-full px-3 space-y-2 text-xs divide-y divide-gray-200"
+            <div class="block text-center hs-tooltip-toggle">
+              <NuxtLink
+                to="#equipe"
+                class="px-3 tracking-wide text-black transition duration-200 ease-in-out decoration-red-500 decoration-2 hover:underline hover:underline-offset-4"
+                >L'equipe</NuxtLink
               >
-                <li class="py-1 whitespace-nowrap hover:font-semibold">
-                  <NuxtLink to="#MarcPantaloni">Marc Pantaloni</NuxtLink>
-                </li>
-                <li class="py-1 whitespace-nowrap hover:font-semibold">
-                  <NuxtLink to="#MagaliGreiner">Magali Greiner</NuxtLink>
-                </li>
-                <li class="py-1 whitespace-nowrap hover:font-semibold">
-                  <NuxtLink to="#GhinwaRachwan">Ghinwa Rachwan</NuxtLink>
-                </li>
-                <li class="py-1 whitespace-nowrap hover:font-semibold">
-                  <NuxtLink to="#SandrineNivetAbdoun"
-                    >Sandrine Nivet-Abdoun</NuxtLink
-                  >
-                </li>
-              </ul>
+              <div
+                class="absolute z-30 invisible hidden w-full h-auto max-w-xs px-3 py-2 font-medium text-black transition-opacity border border-gray-100 rounded shadow-sm opacity-0 hs-tooltip-content bg-gray-50 text-start hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
+              >
+                <ul class="w-full px-3 text-sm divide-y divide-gray-100">
+                  <li class="py-1 whitespace-nowrap hover:font-semibold">
+                    <NuxtLink to="#MarcPantaloni">Marc Pantaloni</NuxtLink>
+                  </li>
+                  <li class="py-1 whitespace-nowrap hover:font-semibold">
+                    <NuxtLink to="#MagaliGreiner">Magali Greiner</NuxtLink>
+                  </li>
+                  <li class="py-1 whitespace-nowrap hover:font-semibold">
+                    <NuxtLink to="#GhinwaRachwan">Ghinwa Rachwan</NuxtLink>
+                  </li>
+                  <li class="py-1 whitespace-nowrap hover:font-semibold">
+                    <NuxtLink to="#SandrineNivetAbdoun"
+                      >Sandrine Nivet-Abdoun</NuxtLink
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
           <li
-            class="px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
+            class="px-3 tracking-wide text-black transition duration-200 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:underline hover:underline-offset-4"
           >
             <NuxtLink to="#expertise">Expertise</NuxtLink>
           </li>
           <li
-            class="px-3 tracking-wide text-black transition duration-300 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:translate-x-2 hover:underline hover:underline-offset-4"
+            class="px-3 tracking-wide text-black transition duration-200 ease-in-out cursor-pointer decoration-red-500 decoration-2 hover:underline hover:underline-offset-4"
           >
             <NuxtLink to="#contact">Contact</NuxtLink>
           </li>
