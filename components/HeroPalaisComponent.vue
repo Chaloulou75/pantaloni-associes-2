@@ -15,11 +15,11 @@
           class="w-auto h-auto mx-auto"
         />
         <h1
-          class="text-2xl font-thin text-center uppercase transition duration-200 animate-fade-in-down md:text-3xl lg:text-4xl"
+          class="text-2xl font-medium text-center uppercase transition duration-200 animate-fade-in-down md:text-3xl lg:text-4xl"
         >
-          <span class="font-bold">P</span>antaloni
-          <span class="font-bold">G</span>reiner
-          <span class="font-bold">R</span>achwan
+          <span class="font-semibold">P</span>antaloni
+          <span class="font-semibold">G</span>reiner
+          <span class="font-semibold">R</span>achwan
         </h1>
         <h2
           class="text-lg font-thin text-center text-gray-700 uppercase transition duration-200 animate-fade-in-down-delai md:text-xl lg:text-2xl"
