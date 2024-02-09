@@ -27,10 +27,16 @@ export default defineNuxtConfig({
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/google-fonts"],
+  buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@vueuse/nuxt", "@nuxt/image", "@vite-pwa/nuxt", "@nuxtjs/sitemap"],
+  modules: [
+    "@vueuse/nuxt",
+    "@nuxt/image",
+    "@vite-pwa/nuxt",
+    "@nuxtjs/sitemap",
+    "@nuxtjs/google-fonts",
+  ],
 
   plugins: ["~/plugins/preline.client.ts"],
 
