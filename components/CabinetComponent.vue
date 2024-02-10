@@ -22,7 +22,7 @@
         <p class="mx-auto py-2 text-justify indent-8 text-xl tracking-wide">
           Situé en plein cœur du 17ème arrondissement de Paris, entre le Nouveau
           Palais de Justice et l’Arc de Triomphe, le Cabinet
-          <span class="font-bold text-red-500"> PANTALONI &amp; ASSOCIES </span>
+          <span class="font-bold text-red-500"> PANTALONI GREINER RACHWAN</span>
           conseille et assure la défense d’une clientèle constituée
           d’Institutionnels, de grandes sociétés, moyennes et petites
           entreprises ainsi que de particuliers.
