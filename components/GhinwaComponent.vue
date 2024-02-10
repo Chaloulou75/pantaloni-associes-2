@@ -38,7 +38,7 @@
             international.
           </p>
           <p class="indent-8">
-            Elle a rejoint le cabinet PANTALONI GREINER RACHWANen avril 2021.
+            Elle a rejoint le cabinet PANTALONI GREINER RACHWAN en avril 2021.
           </p>
           <p class="indent-8">
             Elle intervient principalement pour le compte de sociétés
