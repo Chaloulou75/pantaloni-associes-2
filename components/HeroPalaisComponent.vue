@@ -41,7 +41,7 @@
           <li
             class="hs-tooltip relative inline-block cursor-pointer [--trigger:hover]"
           >
-            <div class="block text-center hs-tooltip-toggle">
+            <div class="block hs-tooltip-toggle">
               <NuxtLink
                 to="#equipe"
                 class="px-3 tracking-wide text-black transition duration-200 ease-in-out decoration-red-500 decoration-2 hover:underline hover:underline-offset-4"
