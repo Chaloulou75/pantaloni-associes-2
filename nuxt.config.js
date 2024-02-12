@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   head: {
-    title: "Pantaloni & Associés | Avocats à la Cour",
+    title: "Pantaloni Greiner Rachwan | Avocats à la Cour",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         hid: "description",
         name: "description",
         content:
-          "Cabinet d'avocats à Paris. Droit de la construction. Droit de la responsabilité. Droit des assurances. Marc Pantaloni et Associés",
+          "Cabinet d'avocats à Paris. Droit de la construction. Droit de la responsabilité. Droit des assurances. Pantaloni Greiner Rachwan",
       },
       { name: "format-detection", content: "telephone=no" },
     ],
