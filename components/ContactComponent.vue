@@ -1,15 +1,15 @@
 <script setup></script>
 <template>
-  <div class="min-h-full bg-gray-600" id="contact">
+  <div class="min-h-full bg-slate-700" id="contact">
     <h2
-      class="sticky top-0 z-30 py-4 mb-8 text-xl font-medium tracking-wider text-center text-white uppercase bg-gray-600 backdrop-blur-xs"
+      class="sticky top-0 z-30 py-4 mb-8 text-xl font-medium tracking-wider text-center text-white uppercase bg-slate-700 backdrop-blur-xs"
     >
       Contact
     </h2>
 
     <div class="justify-around pb-32 space-y-6 md:space-y-0 lg:flex">
       <div
-        class="flex justify-start w-full px-2 tracking-wider text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex justify-start w-full px-2 tracking-wider text-white lg:w-1/3 lg:justify-center"
       >
         <div>
           <p class="flex items-center text-lg lg:text-xl">
@@ -29,9 +29,7 @@
             </svg>
             Adresse:
           </p>
-          <p
-            class="mt-4 ml-10 text-xl text-red-400 font-extralight lg:text-2xl"
-          >
+          <p class="mt-4 ml-10 text-lg font-medium text-red-500 lg:text-xl">
             PANTALONI GREINER RACHWAN | AARPI
           </p>
           <p class="ml-10 text-lg">15 Rue Saussier Leroy</p>
@@ -41,7 +39,7 @@
       </div>
 
       <div
-        class="flex justify-start w-full px-2 text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex justify-start w-full px-2 text-white lg:w-1/3 lg:justify-center"
       >
         <div>
           <p
@@ -69,7 +67,7 @@
         </div>
       </div>
       <div
-        class="flex justify-start w-full px-2 text-gray-100 lg:w-1/3 lg:justify-center"
+        class="flex justify-start w-full px-2 text-white lg:w-1/3 lg:justify-center"
       >
         <div class="text-lg tracking-wide">
           <p class="ml-10 md:ml-0">Le cabinet vous reçoit sur rendez-vous.</p>
