@@ -15,7 +15,7 @@ const targetIsVisible = useElementVisibility(target);
 
 <template>
   <div
-    class="relative min-h-screen text-black bg-white scroll-smooth font-cormorant"
+    class="relative min-h-screen text-black scroll-smooth bg-gray-50 font-cormorant"
   >
     <HeroPalaisComponent ref="target" />
     <CabinetComponent />

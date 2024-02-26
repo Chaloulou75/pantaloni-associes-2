@@ -7,7 +7,7 @@ import SandrineComponent from "./SandrineComponent.vue";
 <template>
   <div class="min-h-full" id="equipe">
     <h2
-      class="sticky top-0 z-30 bg-white/50 py-4 text-center text-xl font-medium uppercase tracking-wider backdrop-blur-xs"
+      class="sticky top-0 z-30 py-4 text-xl font-medium tracking-wider text-center uppercase bg-gray-50/50 backdrop-blur-xs"
     >
       L'équipe
     </h2>

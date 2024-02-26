@@ -2,7 +2,7 @@
 <template>
   <div class="min-h-full bg-slate-700" id="contact">
     <h2
-      class="sticky top-0 z-30 py-4 mb-8 text-xl font-medium tracking-wider text-center text-white uppercase bg-slate-700 backdrop-blur-xs"
+      class="sticky top-0 z-30 pt-8 pb-4 mb-8 text-xl font-medium tracking-wider text-center text-white uppercase bg-slate-700 backdrop-blur-xs"
     >
       Contact
     </h2>
@@ -29,7 +29,7 @@
             </svg>
             Adresse:
           </p>
-          <p class="mt-4 ml-10 text-lg font-medium text-red-500 lg:text-xl">
+          <p class="mt-4 ml-10 text-lg font-medium text-red-400 lg:text-xl">
             PANTALONI GREINER RACHWAN | AARPI
           </p>
           <p class="ml-10 text-lg">15 Rue Saussier Leroy</p>

@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="relative w-full h-screen bg-white" id="top">
+  <div class="relative w-full h-screen" id="top">
     <!-- Navigation -->
     <div
       class="flex flex-col items-center justify-between min-h-screen mx-auto"
@@ -9,8 +9,8 @@
       <div class="relative mt-auto mb-4 space-y-2 md:mb-20">
         <NuxtImg
           sizes=""
-          height="200"
-          src="/logo.jpg"
+          height="300"
+          src="/logopng.png"
           alt="logo"
           class="w-auto h-auto mx-auto"
         />
