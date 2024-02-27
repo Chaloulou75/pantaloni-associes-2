@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         hid: "description",
         name: "description",
         content:
-          "Cabinet d'avocats à Paris. Droit de la construction. Droit de la responsabilité. Droit des assurances. Pantaloni Greiner Rachwan",
+          "Cabinet d'avocats à Paris. Droit de la construction. Droit de la responsabilité. Droit des assurances. Pantaloni Greiner Rachwan. Avocats à la Cour",
       },
       { name: "format-detection", content: "telephone=no" },
     ],
@@ -36,6 +36,7 @@ export default defineNuxtConfig({
     "@vite-pwa/nuxt",
     "@nuxtjs/sitemap",
     "@nuxtjs/google-fonts",
+    "nuxt-gtag",
   ],
 
   plugins: ["~/plugins/preline.client.ts"],
@@ -61,6 +62,10 @@ export default defineNuxtConfig({
   sitemap: {
     hostname: "https://www.pantaloni-associes.com",
     gzip: true,
+  },
+
+  gtag: {
+    id: "G-2X74E1GG0H",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
