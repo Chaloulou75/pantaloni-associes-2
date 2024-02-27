@@ -68,6 +68,10 @@ export default defineNuxtConfig({
     id: "G-2X74E1GG0H",
   },
 
+  pwa: {
+    registerWebManifestInRouteRules: true,
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     html: {
