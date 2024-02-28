@@ -30,26 +30,27 @@ const targetIsVisible = useElementVisibility(target);
       <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
       <div class="mb-6 text-lg text-justify">
         <p>
-          Raison sociale : Pantaloni &amp; Associés<br />
+          Raison sociale : Pantaloni-Greiner-Rachwan<br />
           Forme juridique : Association d’Avocats à Responsabilité
           Professionnelle Individuelle<br />
           SIRET: 37876204100036<br />
-          Responsable de la publication : Marc Pantaloni <br />
+          Responsable de la publication : Magali Greiner <br />
           Adresse : 15 Rue Saussier Leroy 75017, Paris. France<br />
           Developpeur Web : Charles Jeandey
         </p>
         <p>
           Conformément à la loi n°2004-575 du 21 juin 2004 pour la confiance
           dans l’économie numérique, nous vous informons que le site internet
-          www.pantaloni-associes.com est la propriété de l’AARPI Pantaloni &amp;
-          Associés. Le site internet www.pantaloni-associes.com est hébergé sur
-          les matériels informatiques de la société Netlify, 2325 3rd Street,
-          Suite 215; San Francisco, Californie 94107, États-Unis d’Amérique.<br />
-          Le site www.pantaloni-associes.com est régi par le droit français ;
-          les visiteurs ayant accès au site de l’étranger, doivent s’assurer du
-          respect des lois localement applicables. Les mentions légales pouvant
-          être modifiées à tout moment et sans préavis, nous vous engageons à
-          les consulter régulièrement.
+          www.pantaloni-greiner-rachwan.com est la propriété de l’AARPI
+          Pantaloni &amp; Associés. Le site internet
+          www.pantaloni-greiner-rachwan.com est hébergé sur les matériels
+          informatiques de la société Netlify, 2325 3rd Street, Suite 215; San
+          Francisco, Californie 94107, États-Unis d’Amérique.<br />
+          Le site www.pantaloni-greiner-rachwan.com est régi par le droit
+          français ; les visiteurs ayant accès au site de l’étranger, doivent
+          s’assurer du respect des lois localement applicables. Les mentions
+          légales pouvant être modifiées à tout moment et sans préavis, nous
+          vous engageons à les consulter régulièrement.
         </p>
       </div>
       <div class="mb-6 text-base">
@@ -93,9 +94,9 @@ const targetIsVisible = useElementVisibility(target);
         </h3>
         <div class="mb-6 text-lg text-justify">
           <p class="indent-8">
-            L’utilisateur du site web www.pantaloni-associes.com reconnaît avoir
-            pris connaissance des présentes conditions d’utilisation du site et
-            s’engage à les respecter.<br />
+            L’utilisateur du site web www.pantaloni-greiner-rachwan.com
+            reconnaît avoir pris connaissance des présentes conditions
+            d’utilisation du site et s’engage à les respecter.<br />
             Pantaloni &amp; Associés ne saurait être tenue pour responsable des
             dommages directs ou indirects qui pourraient résulter de l’accès au
             site ou de l’utilisation du site et/ou de ces informations, y
@@ -126,7 +127,7 @@ const targetIsVisible = useElementVisibility(target);
             responsabilité quant aux contenus, publicités, produits, services ou
             tout autre matériel disponible sur ou à partir de ces sites ou
             sources externes. Ces liens sont proposés aux utilisateurs du site
-            www.pantaloni-associes.com en tant que service. La décision
+            www.pantaloni-greiner-rachwan.com en tant que service. La décision
             d’activer les liens vous appartient exclusivement. Nous vous
             rappelons que les sites non-affiliés sont soumis à leurs propres
             conditions d’utilisation.

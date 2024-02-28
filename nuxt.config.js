@@ -60,7 +60,7 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    hostname: "https://www.pantaloni-associes.com",
+    hostname: "https://www.pantaloni-greiner-rachwan.com",
     gzip: true,
   },
 
