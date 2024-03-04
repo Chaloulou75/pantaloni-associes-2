@@ -33,6 +33,7 @@ export default defineNuxtConfig({
   modules: [
     "@vueuse/nuxt",
     "@nuxt/image",
+    "@nuxtjs/seo",
     "@vite-pwa/nuxt",
     "@nuxtjs/sitemap",
     "@nuxtjs/google-fonts",
@@ -60,6 +61,10 @@ export default defineNuxtConfig({
   },
   site: {
     url: "https://www.pantaloni-greiner-rachwan.com",
+    name: "Pantaloni Greiner Rachwan | Avocats à la Cour",
+    description:
+      "Cabinet d'avocats à Paris. Droit de la construction. Droit de la responsabilité. Droit des assurances. Pantaloni Greiner Rachwan. Avocats à la Cour",
+    defaultLocale: "fr",
   },
   gtag: {
     id: "G-2X74E1GG0H",
