@@ -58,12 +58,9 @@ export default defineNuxtConfig({
       "Cormorant+Garamond": true,
     },
   },
-
-  sitemap: {
-    hostname: "https://www.pantaloni-greiner-rachwan.com",
-    gzip: true,
+  site: {
+    url: "https://www.pantaloni-greiner-rachwan.com",
   },
-
   gtag: {
     id: "G-2X74E1GG0H",
   },
