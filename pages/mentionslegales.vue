@@ -11,24 +11,24 @@ const targetIsVisible = useElementVisibility(target);
 <template>
   <div class="bg-gray-100 font-cormorant">
     <nav
-      class="relative flex justify-between w-full px-6 py-4"
+      class="relative flex w-full justify-between px-6 py-4"
       ref="target"
       id="nav_Mention"
     >
       <NuxtLink
         to="/"
-        class="text-sm font-medium text-gray-900 transition duration-200 ease-in-out transform border-b border-gray-800 cursor-pointer hover:border-gray-900 hover:font-semibold hover:text-black lg:text-base"
+        class="transform cursor-pointer border-b border-gray-800 text-sm font-medium text-gray-900 transition duration-200 ease-in-out hover:border-gray-900 hover:font-semibold hover:text-black lg:text-base"
       >
         Revenir à l'Accueil
       </NuxtLink>
     </nav>
 
-    <div class="h-auto max-w-5xl px-6 pb-8 mx-auto text-sm text-gray-900">
-      <h1 class="py-4 mb-4 text-3xl font-semibold tracking-wider text-center">
+    <div class="mx-auto h-auto max-w-5xl px-6 pb-8 text-sm text-gray-900">
+      <h1 class="mb-4 py-4 text-center text-3xl font-semibold tracking-wider">
         -Mentions légales-
       </h1>
-      <div class="w-1/4 mx-auto my-8 border-t border-pink-400"></div>
-      <div class="mb-6 text-lg text-justify">
+      <div class="mx-auto my-8 w-1/4 border-t border-pink-400"></div>
+      <div class="mb-6 text-justify text-lg">
         <p>
           Raison sociale : Pantaloni-Greiner-Rachwan<br />
           Forme juridique : Association d’Avocats à Responsabilité
@@ -42,7 +42,7 @@ const targetIsVisible = useElementVisibility(target);
           Conformément à la loi n°2004-575 du 21 juin 2004 pour la confiance
           dans l’économie numérique, nous vous informons que le site internet
           www.pantaloni-greiner-rachwan.com est la propriété de l’AARPI
-          Pantaloni &amp; Associés. Le site internet
+          Pantaloni Greiner Rachwan. Le site internet
           www.pantaloni-greiner-rachwan.com est hébergé sur les matériels
           informatiques de la société Netlify, 2325 3rd Street, Suite 215; San
           Francisco, Californie 94107, États-Unis d’Amérique.<br />
@@ -55,29 +55,30 @@ const targetIsVisible = useElementVisibility(target);
       </div>
       <div class="mb-6 text-base">
         <h3 class="mb-6 text-xl font-semibold">Propriété intellectuelle</h3>
-        <div class="mb-6 text-lg text-justify">
+        <div class="mb-6 text-justify text-lg">
           <p class="indent-8">
-            Pantaloni &amp; Associés détient, se réserve et conserve tous les
+            Pantaloni Greiner Rachwan détient, se réserve et conserve tous les
             droits de propriété, notamment intellectuelle, y compris les droits
             de reproduction sur le présent site et les éléments qu’il contient.
             En conséquence et notamment toute reproduction partielle ou totale
             du présent site et des éléments qu’il contient est strictement
-            interdite sans autorisation écrite de Pantaloni &amp; Associés. Les
+            interdite sans autorisation écrite de Pantaloni Greiner Rachwan. Les
             logos et tous autres signes distinctifs contenus sur ce site sont la
-            propriété de Pantaloni &amp; Associés ou font l’objet d’une
+            propriété de Pantaloni Greiner Rachwan ou font l’objet d’une
             autorisation d’utilisation. Aucun droit ou licence ne saurait être
             attribué sur l’un quelconque de ces éléments sans l’autorisation
-            écrite de Pantaloni &amp; Associés ou du tiers détenteur des droits.
+            écrite de Pantaloni Greiner Rachwan ou du tiers détenteur des
+            droits.
           </p>
         </div>
 
         <h3 class="mb-6 text-xl font-semibold">Contenu</h3>
-        <div class="mb-6 text-lg text-justify">
+        <div class="mb-6 text-justify text-lg">
           <p class="indent-8">
-            Les informations fournies sur ce site par Pantaloni &amp; Associés
+            Les informations fournies sur ce site par Pantaloni Greiner Rachwan
             ne sont données qu’à titre indicatif et n’ont pas de valeur
             contractuelle.<br />
-            Pantaloni &amp; Associés s’efforce de mettre à jour le site mais ne
+            Pantaloni Greiner Rachwan s’efforce de mettre à jour le site mais ne
             garantit ni l’exactitude ni le caractère exhaustif des informations
             présentées sur ce site, quelles qu’elles soient. En cas de
             différence entre les informations concernant les produits, c’est
@@ -92,23 +93,23 @@ const targetIsVisible = useElementVisibility(target);
         <h3 class="mb-6 text-xl font-semibold">
           Exclusion de garantie et de responsabilité
         </h3>
-        <div class="mb-6 text-lg text-justify">
+        <div class="mb-6 text-justify text-lg">
           <p class="indent-8">
             L’utilisateur du site web www.pantaloni-greiner-rachwan.com
             reconnaît avoir pris connaissance des présentes conditions
             d’utilisation du site et s’engage à les respecter.<br />
-            Pantaloni &amp; Associés ne saurait être tenue pour responsable des
+            Pantaloni Greiner Rachwan ne saurait être tenue pour responsable des
             dommages directs ou indirects qui pourraient résulter de l’accès au
             site ou de l’utilisation du site et/ou de ces informations, y
             compris l’inaccessibilité, les pertes de données, détériorations,
             destructions ou virus qui pourraient affecter l’équipement
             informatique de l’utilisateur et/ou de la présence de virus sur son
             site.<br />
-            Bien que Pantaloni &amp; Associés s’efforce de fournir un contenu
+            Bien que Pantaloni Greiner Rachwan s’efforce de fournir un contenu
             fiable sur son site, il ne garantit pas que son contenu soit exempt
             d’inexactitudes ou d’omissions et ne saurait être tenu pour
             responsable des erreurs ou omissions, d’une absence de disponibilité
-            des informations et des services. Pantaloni &amp; Associés se
+            des informations et des services. Pantaloni Greiner Rachwan se
             réserve à tout moment et sans préavis le droit d’apporter des
             améliorations et/ou des modifications au contenu de son site. En
             conséquence, l’utilisateur reconnaît se servir de ses informations
@@ -117,11 +118,11 @@ const targetIsVisible = useElementVisibility(target);
         </div>
 
         <h3 class="mb-6 text-xl font-semibold">Lien vers d’autres sites</h3>
-        <div class="mb-6 text-lg text-justify">
+        <div class="mb-6 text-justify text-lg">
           <p class="indent-8">
             Le site peut inclure des liens vers d’autres sites ou d’autres
-            sources Internet. Dans la mesure où Pantaloni &amp; Associés ne peut
-            contrôler ces sites et ces sources externes, Pantaloni &amp;
+            sources Internet. Dans la mesure où Pantaloni Greiner Rachwan ne
+            peut contrôler ces sites et ces sources externes, Pantaloni &amp;
             Associés ne peut être tenu pour responsable de la mise à disposition
             de ces sites et sources externes, et décline ainsi toute
             responsabilité quant aux contenus, publicités, produits, services ou
@@ -135,7 +136,7 @@ const targetIsVisible = useElementVisibility(target);
         </div>
 
         <h3 id="cookies" class="mb-6 text-xl font-semibold">Cookies</h3>
-        <div class="mb-6 text-lg text-justify">
+        <div class="mb-6 text-justify text-lg">
           <p class="indent-8">
             Lors de vos visites, vous êtes informé qu’un témoin de connexion
             peut s’installer automatiquement sur votre logiciel de navigation.
@@ -196,11 +197,11 @@ const targetIsVisible = useElementVisibility(target);
     <div v-show="!targetIsVisible">
       <div class="fixed bottom-0 right-0 z-20 mb-16 mr-6">
         <div
-          class="p-2 bg-gray-400 border border-white rounded-full opacity-75 hover:opacity-100"
+          class="rounded-full border border-white bg-gray-400 p-2 opacity-75 hover:opacity-100"
         >
           <ScrollLinkComponent href="#nav_Mention" class="text-black">
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
