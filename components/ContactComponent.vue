@@ -32,7 +32,7 @@
           <p class="mt-4 ml-10 text-lg font-medium text-red-400 lg:text-xl">
             PANTALONI GREINER RACHWAN | AARPI
           </p>
-          <p class="ml-10 text-lg">15 Rue Saussier Leroy</p>
+          <p class="ml-10 text-lg">12 rue Emile Allez</p>
           <p class="ml-10 text-lg">75017 Paris</p>
           <p class="ml-10 text-lg">France</p>
         </div>

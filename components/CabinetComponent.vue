@@ -12,8 +12,8 @@
         <NuxtImg
           :placeholder="[50, 25, 75, 5]"
           sizes="sm:95vw md:50vw lg:95vw"
-          src="/cabinet.JPG"
-          alt=" Cabinet PANTALONI GREINER RACHWAN"
+          src="/sallereunion.jpg"
+          alt="Cabinet PANTALONI GREINER RACHWAN"
           class="mx-auto rounded-sm shadow shadow-gray-500 md:rounded"
         />
       </div>
