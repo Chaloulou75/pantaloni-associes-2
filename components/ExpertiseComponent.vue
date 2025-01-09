@@ -9,17 +9,16 @@
     <div
       class="relative items-center justify-between h-full my-8 lg:flex lg:flex-row lg:items-start lg:px-6"
     >
-      <div class="w-full lg:sticky lg:top-20 lg:my-36 lg:w-1/2">
+      <div class="w-full px-2 lg:sticky lg:top-20 lg:my-36 lg:w-1/2">
         <NuxtImg
-          sizes="sm:95vw md:50vw lg:95vw"
-          src="/GROUPE.JPG"
-          alt="Equipe PANTALONI GREINER RACHWAN"
-          class="mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-xl"
+          sizes="sm:95vw md:50vw lg:400px"
+          src="/tribunal.jpg"
+          alt="tribunal"
+          class="w-full mx-auto rounded-md shadow-lg shadow-sky-800/60 md:rounded-md"
         />
       </div>
       <div class="w-full px-4 py-4 text-black lg:w-1/2 lg:px-8">
         <div class="w-1/4 mx-auto my-8 border-t border-red-500"></div>
-        <!-- <li class="py-2 text-2xl font-medium text-center">Un sous titre</li> -->
         <p class="py-2 mx-auto text-xl tracking-wide text-justify indent-8">
           Depuis sa constitution, le Cabinet
           <span class="font-semibold text-red-500">

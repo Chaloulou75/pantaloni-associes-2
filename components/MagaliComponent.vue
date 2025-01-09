@@ -29,6 +29,7 @@
             Master Droit des Affaires, Droit de l’innovation, de la
             communication et de la Culture (Université de Sceaux)
           </li>
+          <li>Mandataire de transaction immobilière</li>
         </ul>
         <div
           class="w-full h-full px-2 space-y-4 text-xl font-medium tracking-wide text-justify text-black"

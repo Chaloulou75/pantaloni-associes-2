@@ -43,9 +43,9 @@
           >
             <div class="block hs-tooltip-toggle">
               <NuxtLink
-                to="#equipe"
+                to="#associes"
                 class="px-3 tracking-wide text-black transition duration-200 ease-in-out decoration-red-500 decoration-2 hover:underline hover:underline-offset-4"
-                >L'equipe</NuxtLink
+                >Les Associés</NuxtLink
               >
               <div
                 class="absolute z-30 invisible hidden w-full h-auto max-w-xs px-3 py-2 font-medium text-black transition-opacity border border-gray-100 rounded shadow-sm opacity-0 hs-tooltip-content bg-gray-50 text-start hs-tooltip-shown:visible hs-tooltip-shown:opacity-100"
@@ -60,11 +60,11 @@
                   <li class="py-1 whitespace-nowrap hover:font-semibold">
                     <NuxtLink to="#GhinwaRachwan">Ghinwa Rachwan</NuxtLink>
                   </li>
-                  <li class="py-1 whitespace-nowrap hover:font-semibold">
+                  <!-- <li class="py-1 whitespace-nowrap hover:font-semibold">
                     <NuxtLink to="#SandrineNivetAbdoun"
                       >Sandrine Nivet-Abdoun</NuxtLink
                     >
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
